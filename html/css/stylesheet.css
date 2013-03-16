@@ -1,0 +1,333 @@
+@font-face {
+	font-family: "gabiies handwritting";
+	src: url("../font/gabiie_s_handwritting.eot?") format('embedded-opentype'), url("../font/gabiie_s_handwritting.woff") format("woff"),url("../font/gabiie_s_handwritting.ttf") format("truetype"),url("../font/gabiie_s_handwritting.svg#gabiieshandwritting") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: "jrhand";
+	src: url("../font/jrhand.eot?") format('embedded-opentype'), url("../font/jrhand.woff") format("woff"),url("../font/jrhand.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em,
+font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody,
+tfoot, thead, tr, th, td {
+	border:0px none;
+	font-family:inherit;
+	font-size:100%;
+	font-style:inherit;
+	font-weight:inherit;
+	margin:0pt;
+	outline: 0 none;
+	padding:1px;
+	vertical-align:baseline;
+	font-family: Arial;
+}
+body {
+	height: 100%;
+	margin: 0;
+	padding: 15px;
+	background: url("../images/background.jpg") repeat;
+	background-color:black;
+	overflow:hidden;
+}
+h1, h2 {
+	font-family: "gabiies handwritting";
+	font-size: 40px;
+	color: dodgerblue;
+	text-align: center;
+}
+p, label {
+	color:black;
+	font-family: "jrhand";
+	font-size:25px;
+}
+a {
+	font-family: "jrhand";
+	color:#003366;
+	font-size:25px;
+}
+#menu a {
+	font-size:40px;
+}
+#menu p {
+	color:white;
+	margin-top:50px;
+	font-size:30px;
+}
+nav li {
+	list-style: none outside none;
+	overflow: hidden;
+	display: block;
+}
+footer {
+	position: absolute;
+	bottom:0px;
+}
+footer p, footer p span {
+	text-align: center;
+	color: #003366;
+	margin-top:10px;
+	font-weight: bold;
+	background-color: #061829;
+	border-radius:5px;
+}
+footer p {
+	font-family: "gabiies handwritting";
+	font-size:15px;
+}
+footer p:hover {
+	color: dodgerblue;
+	text-decoration: underline;
+}
+footer p span {
+	color: dodgerblue;
+}
+.draggable {
+	background-color: black;
+	border: 4px solid;
+	border-color: #003366;
+	box-shadow:10px 10px 13px #000;
+	border-radius:10px;
+}
+#back {
+	margin-top:30px;
+}
+#drag1 {
+	float:left;
+	clear:left;
+}
+#drag2 {
+	height:150px;
+	width: 505px;
+	position: relative;
+	left: 30%;
+}
+#aggr1 {
+	width:250px;
+}
+#aggrid {
+	width:250px;
+}
+#main_container {
+	height: 100%;
+	width:100%;
+}
+#maps_container,#maps {
+	height: 450px;
+	width: 450px;
+}
+#maps_container {
+	float:right;
+	margin-right:20px;
+}
+#maps {
+	border: 5px dotted;
+	border-color: #003366;
+	box-shadow:5px 5px 8px #000;
+	border-radius:10px;
+	height:100%;
+	width:100%;
+}
+#griglia {
+	height: 500px;
+	width: 900px;
+	float:left;
+}
+#info {
+	width: 450px;
+	float:right;
+	margin-top:40px;
+	margin-right:30px;
+}
+#more p {
+	color: white;
+	text-align: justify;
+}
+#more {
+	margin-top:10px;
+	margin-bottom:10px;
+}
+.ui-resizable-helper {
+	border: 2px dotted #00F;
+}
+.draggable h2 {
+	text-align: center;
+}
+
+.loader {
+    background: url("/foobar/img/ajax.gif") no-repeat scroll left top transparent;
+    float: left;
+    height: 16px;
+    margin: 13px 15px 0;
+    width: 16px;
+    display: none;
+
+}
+form {
+	padding: 15px;
+}
+input, select {
+	/*padding: 10px;*/
+	float: right;
+	clear:right;
+	border: 3px solid #003366;
+}
+input:hover, select:hover {
+	border: 3px solid dodgerblue;
+}
+#address{
+	width:300px;
+}
+form > .button {
+	margin: 0 auto;
+	padding: 5px;
+	width: 100%;
+}
+label {
+	color:white;
+	margin-top:3px;
+	/*font-family: "gabiies handwritting";
+	font-size: 23px;*/
+	clear:left;
+	float:left;
+}
+form p:hover {
+	color:dodgerblue;
+}
+#first {
+	position:relative;
+	overflow:auto;
+	box-shadow:20px 20px 20px #061829;
+	margin-top:10px;
+}
+ul.start {
+    list-style: none outside none;
+    width: 100%;
+    height: 30px;
+}
+ul.start li {
+    height: 60px;
+    display: block;
+}
+ul.start li a {
+    position:relative;
+    top:100px;
+    text-shadow: 2px 2px 15px #003366;
+    color: #003366;
+    font-family: "gabiies handwritting";
+    font-size: 30px;
+    letter-spacing: 1px;
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    -ms-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+ul.start li a:hover {
+    text-shadow: 0px 0px 1px #003366;
+    color: dodgerblue;
+}
+#overlay {
+	display:none;
+	background:transparent url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAAOCAYAAAD0f5bSAAAABGdBTUEAALGPC/xhBQAAABh0RVh0U29mdHdhcmUAUGFpbnQuTkVUIHYzLjM2qefiJQAAACVJREFUKFNjtLe3b2AgFYA0kYoZSNUAdtmoJkhIjwYENMmRFRAABtDShPYvM2QAAAAASUVORK5CYII=") repeat top left;
+    position:fixed;
+    top:0px;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    z-index:9998;
+}
+#box{
+    position:fixed;
+    top:-200px;
+    left:30%;
+    right:30%;
+    background-color:#fff;
+    color:#7F7F7F;
+    padding:20px;
+    border:2px solid #ccc;
+    -moz-border-radius: 20px;
+    -webkit-border-radius:20px;
+    -khtml-border-radius:20px;
+    -moz-box-shadow: 0 1px 5px #333;
+    -webkit-box-shadow: 0 1px 5px #333;
+    z-index:9999;
+}
+#box h1{
+    border-bottom: 1px dashed #7F7F7F;
+    margin:-20px -20px 0px -20px;
+    padding:10px;
+    background-color:#000;
+    color:dodgerblue;
+    -moz-border-radius:20px 20px 0px 0px;
+    -webkit-border-top-left-radius: 20px;
+    -webkit-border-top-right-radius: 20px;
+    -khtml-border-top-left-radius: 20px;
+    -khtml-border-top-right-radius: 20px;
+}
+.big {
+	font-size: 140%;
+	margin: 0px;
+}
+.center{
+	text-align: center;
+}
+.small {
+	font-size: 80%;
+	margin: 0px;
+}
+.distance1k {
+	color:green;
+}
+.distance5k {
+	color:orange;
+}
+.distanceout {
+	color:red;
+}
+.menu {
+    position: fixed;
+    margin: 0px;
+    padding: 0px;
+    top: 10px;
+    left: 0px;
+    list-style: none;
+    z-index:9997;
+}
+.menu li a {
+	text-decoration:none;
+    display: block;
+    padding-left: 10px;
+    padding-top:5px;
+    width: 100px;
+    height: 40px;
+    background-color:#003366;
+	font-size:30px;
+	color: black;
+	font-weight:bold;
+    font-family: "gabiies handwritting";
+	border-radius:0px 10px 10px 0px;
+}
+.menu li a:hover {
+    background-color:dodgerblue;
+}
+#back {
+	margin-top:50px;
+}
+#table_wrapper {
+	overflow: scroll;
+}
+#table_wrapper label {
+	color:dodgerblue;
+}
+tbody tr, tbody td {
+    border: 3px outset #003366;
+    font-size:13px;
+}
+thead tr, thead td, ui-toolbar {
+	background-color: gray;
+	border: 3px dodgerblue;
+	font-family: "gabiies handwritting";
+}

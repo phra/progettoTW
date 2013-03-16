@@ -1,0 +1,21 @@
+<div class ='titoletto'>
+<h2>inserisci i dati per il servizio "descrizione":</h2>
+</div>
+<div class='draggable' id='drag2'>
+		<div id='form2'>
+		<form >
+				<p>aggregatori:
+					<select class='select' id='select'>
+					<option value='ltw1129-super'>supermercati</option>
+					<option value='ltw1129-farmacie'>farmacie</option>
+					<option selected='' value='ltw1129-poste'>poste</option>
+					<option value='ltw1129-scuole'>scuole</option>
+					<option value='ltw1129-super/ltw1129-farmacie/ltw1129-poste/ltw1129-scuole'>tutti</option>
+					</select>
+				</p>
+			<p>id: <input class='input' required='' type='text' id='id' value='pt0001' /></p>
+			<input type='button' class='button' value="trova info!" onclick="getinfomap(document.getElementById('select').value, document.getElementById('id').value);" />
+		</form>
+		</div>
+		<div id='info' class='draggable'><h2>infobox!</h2><p>premi su un marker per maggior informazioni.</p></div>
+</div>

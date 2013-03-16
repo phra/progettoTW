@@ -1,0 +1,152 @@
+{
+	"locations": {
+		"scuoleRN0001": {
+			"category": ["Scuola materna"],
+			"name": "Scuole Circolo Didattico N. 9 Plessi Di Scuola Materna Statale",
+			"address": "Via Tristano e Isotta, 7 - Rimini RN",
+			"lat": "44.057153",
+			"long":"12.57072",
+			"tel": "0541 775060",
+			"opening": "Mon, Tue, Wed, Thu, Fri: 0730-1630.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"scuoleRN0002": {
+			"category": ["Scuola materna"],
+			"name": "Congregazione Suore Francescane Missionarie Di Cristo - Scuola Materna S. Francesco",
+			"address": "Viale Roma, 23 - Rimini RN",
+			"lat": "44.051921",
+			"long":"12.3209",
+			"tel": "0541 734376 ",
+			"opening": "Mon, Tue, Wed, Thu, Fri: 0730-1630 .",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"scuoleRN0003": {
+			"category": ["Scuola materna"],
+			"name": "La Resurrezione - Scuola Materna Parrocchiale",
+			"address": "Via della Gazzella, 48 - Rimini RN",
+			"lat": "44.072417",
+			"long":"12.545872",
+			"tel": "0541 751308",
+			"opening": "Mon, Tue, Wed, Thu, Fri: 0730-1730.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"scuoleRN0004": {
+			"category": ["Scuola materna"],
+			"name": "Scuole Materne Private - Casa Di Cristo Re",
+			"address": "Via Medusa, 22 - Rimini RN",
+			"lat": "44.053544",
+			"long":"12.552567",
+			"tel": "0541 770101",
+			"opening": "Mon, Tue, Wed, Thu, Fri: 0830-1730.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"scuoleRN0005": {
+			"category": ["Scuola materna"],
+			"name": "Scuola Materna Paritaria Beata Vergine Del Carmine",
+			"address": "Via 20 Settembre 1870, 99 - Rimini RN",
+			"lat": "44.054624",
+			"long":"12.572592",
+			"tel": "0541 782333",
+			"opening": "Mon, Tue, Wed, Thu, Fri: 0730-1600.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"scuoleRN0006": {
+			"category": ["Scuola materna"],
+			"name": "Scuole Circolo Didattico N. 6 Plessi Di Scuola Materna Statale",
+			"address": "Via Panaro, 16 - Rimini RN",
+			"lat": "44.0394",
+			"long":"12.577023",
+			"tel": "0541 391576",
+			"opening": "Mon, Tue, Wed, Thu, Fri: 0730-1630.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"scuoleRN0007": {
+			"category": ["Scuola materna"],
+			"name": "Scuola Materna S.Famiglia",
+			"address": "Via Ennio Coletti, 110 - Rimini RN",
+			"lat": "44.05732",
+			"long":"12.569852",
+			"tel": "0541 24556",
+			"opening": "Mon, Tue, Wed, Thu, Fri: 0730-1600.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"scuoleRN0008": {
+			"category": ["Scuola materna"],
+			"name": "Scuole Circolo Didattico N. 4 Plessi Di Scuola Materna Statali Giulian",
+			"address": "Via Giacomo Matteotti, 28 - Rimini RN",
+			"lat": "44.066267",
+			"long":"12.564727",
+			"tel": "0541 27192",
+			"opening": "Mon, Tue, Wed, Thu, Fri: 0730-1630.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"scuoleRN0009": {
+			"category": ["Scuola materna"],
+			"name": "Scuola Materna Privata A.Marvelli Centro Italia",
+			"address": "Via Lagomaggio, 105 - Rimini RN",
+			"lat": "44.051894",
+			"long":"12.591111",
+			"tel": "0541 392276",
+			"opening": "Mon, Tue, Wed, Thu, Fri: 0800-1630.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"scuoleRN0010": {
+			"category": ["Scuola materna"],
+			"name": "Congregazione Suore Francescane Scuola Materna Don G. Marconi",
+			"address": "Via Emilia Vecchia, 215 - Rimini RN",
+			"lat": "44.085216",
+			"long":"12.456613",
+			"tel": "0541 620064",
+			"opening": "Mon, Tue, Wed, Thu, Fri: 0800-1630.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"scuoleRN0011": {
+			"category": ["Scuola materna"],
+			"name": "Scuola Materna Don Domenico Masi",
+			"address": "Viale Don Domenico Masi, 67 - Rimini RN",
+			"lat": "44.031523",
+			"long":"12.618916",
+			"tel": "0541 478012",
+			"opening": "Mon, Tue, Wed, Thu, Fri: 0730-1630.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"scuoleRN0012": {
+			"category": ["Scuola materna"],
+			"name": "Fondazione Fabbri Scuola Materna San Lorenzo",
+			"address": "Viale Santa Margherita Ligure, 1 - Riccione Rimini RN",
+			"lat": "44.00338",
+			"long":"12.632035",
+			"tel": "0541 641975",
+			"opening": "Mon, Tue, Wed, Thu, Fri: 0800-17.00.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"scuoleRN0013": {
+			"category": ["Scuola materna"],
+			"name": "Fondazione Fabbri Scuola Materna San Lorenzo",
+			"address": "Viale Santa Margherita Ligure, 1 - Riccione Rimini RN",
+			"lat": "44.071549",
+			"long":"12.551627",
+			"tel": "0541 641975",
+			"opening": "Mon, Tue, Wed, Thu, Fri: 0830-1630.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"scuoleRN0014": {
+			"category": ["Scuola materna"],
+			"name": "Scuola Materna San Paterniano",
+			"address": "Via Casale, 272 - Verucchio Rimini RN",
+			"lat": "44.005659",
+			"long":"12.43721",
+			"tel": "0541 678440",
+			"opening": "Mon, Tue, Wed, Thu, Fri: 0800-1630.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+
+		}
+	},
+	"metadata": {
+		"creator": "Working Group LTW 2011/2012",
+		"created": "2011-12-20",
+		"version": "1.1",
+		"source": "http://vitali.web.cs.unibo.it/TechWeb12/Formati",
+		"valid": "2011-12-31"
+	}
+}

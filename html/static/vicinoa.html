@@ -1,0 +1,39 @@
+	<div class ='titoletto'>
+		<h2>inserisci i parametri della richiesta:</h2>
+	</div>
+	<div id='more'>
+	<p >per selezionare la posizione puoi spostare il marker sulla mappa, inserire un indirizzo oppure sfruttare le nuove potenzialità della geolocalizzazione automatica.</p>
+	</div>
+	<div class='draggable' id='drag1'>
+			<form id='form1'>
+				<p><label>aggregatori:</label>
+					<select class='select' id='select'>
+					<option value='ltw1129-super/ltw1129-superrn'>supermercati</option>
+					<option value='ltw1129-farmacie/ltw1129-farmaciern'>farmacie</option>
+					<option value='ltw1129-poste/ltw1129-postern'>poste</option>
+					<option value='ltw1129-scuole/ltw1129-scuolern'>scuole</option>
+					<!--<option value='ltw1130-agg_palestre/ltw1129-palestrern'>palestre</option> -->
+					<option value='ltw1130-agg_banche'>banche</option>
+					<option value='ltw1129-super/ltw1129-farmacie/ltw1129-poste/ltw1129-scuole/ltw1129-scuolern/ltw1129-postern/ltw1129-farmaciern/ltw1129-superrn/ltw1130-agg_banche'>tutti</option>
+					</select>
+				</p>
+				<p><label>max results: </label><input type='text' id='max' value='100' /></p>
+
+				<p>				<label>distanza in metri: </label>
+								<input type="range" name="distance" id='distance' min="1" max="15000" step="100" value="5000" />
+				</p>
+				<p>				<label>indirizzo di partenza:</label>
+								<input type='text' id='address' placeholder="Via dell'Indipendenza, Bologna" value="Via dell'Indipendenza, Bologna" />
+				</p>
+				<div id="loader" class="loader"> </div>
+				<input type='button' class='button' value="rileva posizione automaticamente!" onclick='initialize(0);' />
+				<input type='button' class='button' value='usa la posizione fornita sulla mappa.' onclick='initialize(1);' />
+				<input type='button' class='button' value="usa l'indirizzo fornito." onclick='initialize(2);' />
+			</form>
+	</div>
+
+	<a id='initmaps' />
+	<div id='maps_container'>
+		<div class='resizable' id='maps'> </div>
+	</div>
+<!--	<div id='info' class='draggable'><h2>infobox!</h2><p>premi su un marker o un id per maggior informazioni.</p> </div>-->

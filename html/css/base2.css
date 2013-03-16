@@ -1,0 +1,25 @@
+body {
+	color: #000044;
+	font-size: 12pt;
+	font-family: "Times New Roman",Georgia,Serif;
+}
+
+td {
+	background-color: #ccccff; 
+	vertical-align: top; 
+}
+
+.big {
+	font-size: 140%;
+	margin: 0pt; 
+}
+.center{
+	text-align: center; 
+}
+
+
+.small {
+	font-size: 80%;
+	margin: 0pt; 
+}
+

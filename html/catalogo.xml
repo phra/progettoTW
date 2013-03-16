@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE catalogo SYSTEM "http://vitali.web.cs.unibo.it/twiki/pub/TechWeb12/DTDs/catalogo.dtd">
+  <catalogo id="ltw1129" gruppo="indieCODE">
+      <aggregatori>
+               <aggregatore id="ltw1129-farmacie" title="Farmacie di Bologna" url="http://ltw1129.web.cs.unibo.it/farmacie">Dati riguardo le maggiori farmacie di Bologna città, con locazioni, indirizzi e orari di apertura.
+      </aggregatore>
+               <aggregatore id="ltw1129-super" title="Supermercati di Bologna" url="http://ltw1129.web.cs.unibo.it/super">Dati riguardo i supermercati di Bologna città, con locazioni, indirizzi e orari di apertura.
+      </aggregatore>
+               <aggregatore id="ltw1129-scuole" title="Scuole materne di Bologna" url="http://ltw1129.web.cs.unibo.it/scuole">Dati riguardo le scuole materne di Bologna città, con locazioni, indirizzi e orari di apertura.
+      </aggregatore>
+               <aggregatore id="ltw1129-scuolern" title="Scuole materne di Rimini" url="http://ltw1129.web.cs.unibo.it/scuolern">Dati riguardo le scuole materne di Rimini città, con locazioni, indirizzi e orari di apertura.
+      </aggregatore>
+               <aggregatore id="ltw1129-palestrern" title="Palestre di Rimini" url="http://ltw1129.web.cs.unibo.it/palestrern">Dati riguardo le palestre di Rimini città, con locazioni, indirizzi e orari di apertura.
+      </aggregatore>
+               <aggregatore id="ltw1129-farmaciern" title="Farmacie di Rimini" url="http://ltw1129.web.cs.unibo.it/farmaciern">Dati riguardo le farmacie di Rimini città, con locazioni, indirizzi e orari di apertura.
+      </aggregatore>
+               <aggregatore id="ltw1129-superrn" title="Supermercati di Rimini" url="http://ltw1129.web.cs.unibo.it/superrn">Dati riguardo i supermercati di Rimini città, con locazioni, indirizzi e orari di apertura.
+      </aggregatore>
+				<aggregatore id="ltw1129-postern" title="Poste di Rimini" url="http://ltw1129.web.cs.unibo.it/postern">Dati riguardo le poste di Rimini città, con locazioni, indirizzi e orari di apertura.
+      </aggregatore>
+				<aggregatore id="ltw1129-poste" title="Poste di Bologna" url="http://ltw1129.web.cs.unibo.it/poste">Dati riguardo le poste di Bologna città, con locazioni, indirizzi e orari di apertura.
+      </aggregatore>
+     </aggregatori>
+      <descrittori>
+          <descrittore url="http://ltw1129.web.cs.unibo.it/vicino-a" desc="Restituisce i luoghi più vicini al punto specificato">
+                <params>
+                   <param name="latitude" required="yes">La latitudine di partenza</param>
+                 <param name="longitude" required="yes">La longitudine di partenza</param>
+                 <param name="max" required="no">Parametro opzionale, in cui specificare il massimo numero di risultati che si vuol ricevere in risposta.</param>
+                 <param name="distance" required="no">Parametro opzionale, in cui specificare la massima distanza in metri.</param>
+               </params>
+          </descrittore>
+          <descrittore url="http://ltw1129.web.cs.unibo.it/descrizione" desc="Restituisce una descrizione del luogo indicato">
+                <params>
+                   <param name="id" required="yes">La latitudine di partenza</param>
+                </params>
+          </descrittore>
+    </descrittori>
+   </catalogo>

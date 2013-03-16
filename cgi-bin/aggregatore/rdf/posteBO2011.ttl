@@ -1,0 +1,453 @@
+@prefix : <http://www.essepuntato.it/resource/> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cs: <http://cs.unibo.it/ontology/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix this: <http://vitali.web.cs.unibo.it/twiki/pub/TechWeb12/DataSource2/posteBO2011.ttl> .
+
+this:metadata
+	 dcterms:creator "Working Group LTW 2011/2012"
+	; dcterms:created "2011-12-20"^^xsd:date
+	; dcterms:description "1.2"
+	; dcterms:valid "2011-02-21"^^xsd:date
+	; dcterms:source "http://www.aziendedibologna.it/poste_bologna_e_provincia.htm".
+	
+:pt0001
+	 vcard:category "Poste e Telegrafi"
+	; vcard:fn "Ufficio Bologna 1"
+	; vcard:extended-address "Via Cairoli 9, Bologna BO, Italy"
+	; vcard:latitude "44.504192"
+	; vcard:longitude "11.338661"
+	; vcard:tel "051 243425"
+	; vcard:fax "051 244459"
+	; cs:opening "Mon, Tue, Wed, Thu, Fri: 0800-1330. Sat: 0800-1230."
+	; cs:closing "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: .".
+
+:pt0002
+	 vcard:category "Poste e Telegrafi"
+	; vcard:fn "Ufficio Bologna 2"
+	; vcard:extended-address "Via S.Isaia 3, Bologna BO, Italy"
+	; vcard:latitude "44.493623"
+	; vcard:longitude "11.334441"
+	; vcard:tel "051 6440025"
+	; vcard:fax "051 6449255"
+	; cs:opening "Mon, Tue, Wed, Thu, Fri: 0800-1330. Sat: 0800-1230."
+	; cs:closing "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: .".
+
+:pt0003
+	 vcard:category "Poste e Telegrafi"
+	; vcard:fn "Ufficio Bologna 3"
+	; vcard:extended-address "Viale Lincoln Abramo 48/a, Bologna BO, Italy"
+	; vcard:latitude "44.484023"
+	; vcard:longitude "11.391462"
+	; vcard:tel "051 540946"
+	; vcard:fax "051 490575"
+	; cs:opening "Mon, Tue, Wed, Thu, Fri: 0800-1330. Sat: 0800-1230."
+	; cs:closing "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: .".
+
+:pt0004
+	 vcard:category "Poste e Telegrafi"
+	; vcard:fn "Ufficio Bologna 4"
+	; vcard:extended-address "Strada Maggiore 82/a-b, Bologna BO, Italy"
+	; vcard:latitude "44.490744"
+	; vcard:longitude "11.355755"
+	; vcard:tel "051 4293231"
+	; vcard:fax "051 392891"
+	; cs:opening "Mon, Tue, Wed, Thu, Fri: 0800-1330. Sat: 0800-1230."
+	; cs:closing "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: .".
+
+:pt0005
+	 vcard:category "Poste e Telegrafi"
+	; vcard:fn "Ufficio Bologna 5"
+	; vcard:extended-address "Via Grimaldi 6, Bologna BO, Italy"
+	; vcard:latitude "44.499198"
+	; vcard:longitude "11.333820"
+	; vcard:tel "051 5282731"
+	; vcard:fax "051 5282738"
+	; cs:opening "Mon, Tue, Wed, Thu, Fri: 0800-1830. Sat: 0800-1230."
+	; cs:closing "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: .".
+
+:pt0006
+	 vcard:category "Poste e Telegrafi"
+	; vcard:fn "Ufficio Bologna 6"
+	; vcard:extended-address "Via Garibaldi Giuseppe 3/2, Bologna BO, Italy"
+	; vcard:latitude "44.489953"
+	; vcard:longitude "11.343463"
+	; vcard:tel "051 580769"
+	; vcard:fax "051 331471"
+	; cs:opening "Mon, Tue, Wed, Thu, Fri: 0800-1330. Sat: 0800-1230."
+	; cs:closing "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: .".
+
+:pt0007
+	 vcard:category "Poste e Telegrafi"
+	; vcard:fn "Ufficio Bologna 7"
+	; vcard:extended-address "Via S.Stefano 140/a, Bologna BO, Italy"
+	; vcard:latitude "44.485972"
+	; vcard:longitude "11.354573"
+	; vcard:tel "051 344233"
+	; vcard:fax "051 302857"
+	; cs:opening "Mon, Tue, Wed, Thu, Fri: 0800-1330. Sat: 0800-1230."
+	; cs:closing "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: .".
+
+:pt0008
+	 vcard:category "Poste e Telegrafi"
+	; vcard:fn "Ufficio Bologna 8"
+	; vcard:extended-address "Via XXI Aprile, 2/4/6, Bologna BO, Italy"
+	; vcard:latitude "44.490860"
+	; vcard:longitude "11.321256"
+	; vcard:tel "051 6145521"
+	; vcard:fax "051 434334"
+	; cs:opening "Mon, Tue, Wed, Thu, Fri: 0800-1330. Sat: 0800-1230."
+	; cs:closing "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: .".
+
+:pt0009
+	 vcard:category "Poste e Telegrafi"
+	; vcard:fn "Ufficio Bologna 9"
+	; vcard:extended-address "Via Delle Belle Arti 9/5, Bologna BO, Italy"
+	; vcard:latitude "44.497513"
+	; vcard:longitude "11.348464"
+	; vcard:tel "051 2917631"
+	; vcard:fax "051 222218"
+	; cs:opening "Mon, Tue, Wed, Thu, Fri: 0800-1330. Sat: 0800-1230."
+	; cs:closing "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: .".
+
+:pt0010
+	 vcard:category "Poste e Telegrafi"
+	; vcard:fn "Ufficio Bologna 10"
+	; vcard:extended-address "Via Costa Andrea 71, Bologna BO, Italy"
+	; vcard:latitude "44.495487"
+	; vcard:longitude "11.322795"
+	; vcard:tel "051 6142017"
+	; vcard:fax "051 6142801"
+	; cs:opening "Mon, Tue, Wed, Thu, Fri: 0800-1330. Sat: 0800-1230."
+	; cs:closing "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: .".
+
+:pt0011
+	 vcard:category "Poste e Telegrafi"
+	; vcard:fn "Ufficio Bologna 11"
+	; vcard:extended-address "Via S.Mamolo 62, Bologna BO, Italy"
+	; vcard:latitude "44.481485"
+	; vcard:longitude "11.337032"
+	; vcard:tel "051 331034"
+	; vcard:fax "051 330305"
+	; cs:opening "Mon, Tue, Wed, Thu, Fri: 0800-1330. Sat: 0800-1230."
+	; cs:closing "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: .".
+
+:pt0012
+	 vcard:category "Poste e Telegrafi"
+	; vcard:fn "Ufficio Bologna 13"
+	; vcard:extended-address "Via Pizzardi 17/a, Bologna BO, Italy"
+	; vcard:latitude "44.490340"
+	; vcard:longitude "11.366939"
+	; vcard:tel "051 349836"
+	; vcard:fax "051 303779"
+	; cs:opening "Mon, Tue, Wed, Thu, Fri: 0800-1330. Sat: 0800-1230."
+	; cs:closing "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: .".
+
+:pt0013
+	 vcard:category "Poste e Telegrafi"
+	; vcard:fn "Ufficio Bologna 14"
+	; vcard:extended-address "Piazza dell'Otto Agosto 24, Bologna BO, Italy"
+	; vcard:latitude "44.500304"
+	; vcard:longitude "11.346021"
+	; vcard:tel "051 250054"
+	; vcard:fax "051 247247"
+	; cs:opening "Mon, Tue, Wed, Thu, Fri: 0800-1330. Sat: 0800-1230."
+	; cs:closing "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: .".
+
+:pt0014
+	 vcard:category "Poste e Telegrafi"
+	; vcard:fn "Ufficio Bologna 15"
+	; vcard:extended-address "Via Saliceto 4, Bologna BO, Italy"
+	; vcard:latitude "44.512511"
+	; vcard:longitude "11.348908"
+	; vcard:tel "051 352341"
+	; vcard:fax "051 6313328"
+	; cs:opening "Mon, Tue, Wed: 0800-1830. Thu, Fri: 0800-1330. Sat: 0800-1230."
+	; cs:closing "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: .".
+
+:pt0015
+	 vcard:category "Poste e Telegrafi"
+	; vcard:fn "Ufficio Bologna 16"
+	; vcard:extended-address "Via De Maria Mario 3, Bologna BO, Italy"
+	; vcard:latitude "44.507852"
+	; vcard:longitude "11.343074"
+	; vcard:tel "051 353596"
+	; vcard:fax "051 353480"
+	; cs:opening "Mon, Tue, Wed, Thu, Fri: 0800-1330. Sat: 0800-1230."
+	; cs:closing "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: .".
+
+:pt0016
+	 vcard:category "Poste e Telegrafi"
+	; vcard:fn "Ufficio Bologna 17"
+	; vcard:extended-address "Via Morgagni 6, Bologna BO, Italy"
+	; vcard:latitude "44.498004"
+	; vcard:longitude "11.338825"
+	; vcard:tel "051 232183"
+	; vcard:fax "051 223387"
+	; cs:opening "Mon, Tue, Wed, Thu, Fri: 0800-1330. Sat: 0800-1230."
+	; cs:closing "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: .".
+
+:pt0017
+	 vcard:category "Poste e Telegrafi"
+	; vcard:fn "Ufficio Bologna 18"
+	; vcard:extended-address "Via Vittoria 10/c, Bologna BO, Italy"
+	; vcard:latitude "44.503859"
+	; vcard:longitude "11.298051"
+	; vcard:tel "051 312064"
+	; vcard:fax "051 313872"
+	; cs:opening "Mon, Tue, Wed, Thu, Fri: 0800-1330. Sat: 0800-1230."
+	; cs:closing "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: .".
+
+:pt0018
+	 vcard:category "Poste e Telegrafi"
+	; vcard:fn "Ufficio Bologna 20"
+	; vcard:extended-address "Via Delle Armi 1/2/3, Bologna BO, Italy"
+	; vcard:latitude "44.472627"
+	; vcard:longitude "11.369996"
+	; vcard:tel "051 442404"
+	; vcard:fax "051 6235433"
+	; cs:opening "Mon, Tue, Wed, Thu, Fri: 0800-1330. Sat: 0800-1230."
+	; cs:closing "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: .".
+
+:pt0019
+	 vcard:category "Poste e Telegrafi"
+	; vcard:fn "Ufficio Bologna 22"
+	; vcard:extended-address "Via Andrea Costa 154, Bologna BO, Italy"
+	; vcard:latitude "44.494910"
+	; vcard:longitude "11.315771"
+	; vcard:tel "051 6143686"
+	; vcard:fax "051 6153944"
+	; cs:opening "Mon, Tue, Wed, Thu, Fri: 0800-1330. Sat: 0800-1230."
+	; cs:closing "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: .".
+
+:pt0020
+	 vcard:category "Poste e Telegrafi"
+	; vcard:fn "Ufficio Bologna 23"
+	; vcard:extended-address "Via Dell'Artigiano 32/a, Bologna BO, Italy"
+	; vcard:latitude "44.502678"
+	; vcard:longitude "11.366227"
+	; vcard:tel "051 519547"
+	; vcard:fax "051 504080"
+	; cs:opening "Mon, Tue, Wed, Thu, Fri: 0800-1330. Sat: 0800-1230."
+	; cs:closing "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: .".
+
+:pt0021
+	 vcard:category "Poste e Telegrafi"
+	; vcard:fn "Ufficio Bologna 24"
+	; vcard:extended-address "Piazza Bonazzi 6/b, Bologna BO, Italy"
+	; vcard:latitude "44.496282"
+	; vcard:longitude "11.293529"
+	; vcard:tel "051 6195555"
+	; vcard:fax "051 6199464"
+	; cs:opening "Mon, Tue, Wed, Thu, Fri: 0800-1330. Sat: 0800-1230."
+	; cs:closing "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: .".
+
+:pt0022
+	 vcard:category "Poste e Telegrafi"
+	; vcard:fn "Ufficio Bologna 25"
+	; vcard:extended-address "Piazza Da Verazzano Giovanni 6, Bologna BO, Italy"
+	; vcard:latitude "44.518946"
+	; vcard:longitude "11.326964"
+	; vcard:tel "051 6346586"
+	; vcard:fax "051 6341383"
+	; cs:opening "Mon, Tue, Wed, Thu, Fri: 0800-1330. Sat: 0800-1230."
+	; cs:closing "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: .".
+
+:pt0023
+	 vcard:category "Poste e Telegrafi"
+	; vcard:fn "Ufficio Bologna 26"
+	; vcard:extended-address "Via Toscana 140/d, Bologna BO, Italy"
+	; vcard:latitude "44.457251"
+	; vcard:longitude "11.369803"
+	; vcard:tel "051 489511"
+	; vcard:fax "051 482600"
+	; cs:opening "Mon, Tue, Wed, Thu, Fri: 0800-1330. Sat: 0800-1230."
+	; cs:closing "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: .".
+
+:pt0024
+	 vcard:category "Poste e Telegrafi"
+	; vcard:fn "Ufficio Bologna 27"
+	; vcard:extended-address "Via Dell'Industria 2, Bologna BO, Italy"
+	; vcard:latitude "44.504460"
+	; vcard:longitude "11.390458"
+	; vcard:tel "051 6013098"
+	; vcard:fax "051 6026538"
+	; cs:opening "Mon, Tue, Wed, Thu, Fri: 0800-1330. Sat: 0800-1230."
+	; cs:closing "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: .".
+
+:pt0025
+	 vcard:category "Poste e Telegrafi"
+	; vcard:fn "Ufficio Bologna 28"
+	; vcard:extended-address "Via Corazza Natalino 4, Bologna BO, Italy"
+	; vcard:latitude "44.530124"
+	; vcard:longitude "11.356845"
+	; vcard:tel "051 4170924"
+	; vcard:fax "051 328581"
+	; cs:opening "Mon, Tue, Wed, Thu, Fri: 0800-1330. Sat: 0800-1230."
+	; cs:closing "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: .".
+
+:pt0026
+	 vcard:category "Poste e Telegrafi"
+	; vcard:fn "Ufficio Bologna 29"
+	; vcard:extended-address "Via Normandia 12, Bologna BO, Italy"
+	; vcard:latitude "44.522387"
+	; vcard:longitude "11.263779"
+	; vcard:tel "051 6414004"
+	; vcard:fax "051 402344"
+	; cs:opening "Mon, Tue, Wed, Thu, Fri: 0800-1330. Sat: 0800-1230."
+	; cs:closing "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: .".
+
+:pt0027
+	 vcard:category "Poste e Telegrafi"
+	; vcard:fn "Ufficio Bologna 30"
+	; vcard:extended-address "Via Sciesa Amatore 1, Bologna BO, Italy"
+	; vcard:latitude "44.516186"
+	; vcard:longitude "11.283273"
+	; vcard:tel "051 4143680"
+	; vcard:fax "051 4143680"
+	; cs:opening "Mon, Tue, Wed, Thu, Fri: 0800-1830. Sat: 0800-1230."
+	; cs:closing "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: .".
+
+:pt0028
+	 vcard:category "Poste e Telegrafi"
+	; vcard:fn "Ufficio Bologna 31"
+	; vcard:extended-address "Via Firenze 2, Bologna BO, Italy"
+	; vcard:latitude "44.471766"
+	; vcard:longitude "11.387267"
+	; vcard:tel "051 454948"
+	; vcard:fax "051 452191"
+	; cs:opening "Mon, Tue, Wed, Thu, Fri: 0800-1330. Sat: 0800-1230."
+	; cs:closing "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: .".
+
+:pt0029
+	 vcard:category "Poste e Telegrafi"
+	; vcard:fn "Ufficio Bologna 32"
+	; vcard:extended-address "Via Caduti Di Casteldebole 34/2, Bologna BO, Italy"
+	; vcard:latitude "44.500574"
+	; vcard:longitude "11.279079"
+	; vcard:tel "051 565118"
+	; vcard:fax "051 6199438"
+	; cs:opening "Mon, Tue, Wed, Thu, Fri: 0800-1330. Sat: 0800-1230."
+	; cs:closing "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: .".
+
+:pt0030
+	 vcard:category "Poste e Telegrafi"
+	; vcard:fn "Ufficio Bologna 33"
+	; vcard:extended-address "Via Vasari Giorgio 30, Bologna BO, Italy"
+	; vcard:latitude "44.517876"
+	; vcard:longitude "11.351981"
+	; vcard:tel "051 371063"
+	; vcard:fax "051 355930"
+	; cs:opening "Mon, Tue, Wed, Thu, Fri: 0800-1330. Sat: 0800-1230."
+	; cs:closing "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: .".
+
+:pt0031
+	 vcard:category "Poste e Telegrafi"
+	; vcard:fn "Ufficio Bologna 34"
+	; vcard:extended-address "Via Pirandello Luigi 22, Bologna BO, Italy"
+	; vcard:latitude "44.511685"
+	; vcard:longitude "11.389748"
+	; vcard:tel "051 6330345"
+	; vcard:fax "051 502906"
+	; cs:opening "Mon, Tue, Wed, Thu, Fri: 0800-1330. Sat: 0800-1230."
+	; cs:closing "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: .".
+
+:pt0032
+	 vcard:category "Poste e Telegrafi"
+	; vcard:fn "Ufficio Bologna 35"
+	; vcard:extended-address "Piazza Della Costituzione 8, Bologna BO, Italy"
+	; vcard:latitude "44.511030"
+	; vcard:longitude "11.361781"
+	; vcard:tel "051 352778"
+	; vcard:fax "051 353723"
+	; cs:opening "Mon, Tue, Wed, Thu, Fri: 0800-1330. Sat: 0800-1230."
+	; cs:closing "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: .".
+
+:pt0033
+	 vcard:category "Poste e Telegrafi"
+	; vcard:fn "Ufficio Bologna 36"
+	; vcard:extended-address "Via Corelli 23/d, Bologna BO, Italy"
+	; vcard:latitude "44.460853"
+	; vcard:longitude "11.373772"
+	; vcard:tel "051 477472"
+	; vcard:fax "051 475869"
+	; cs:opening "Mon, Tue, Wed, Thu, Fri: 0800-1330. Sat: 0800-1230."
+	; cs:closing "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: .".
+
+:pt0034
+	 vcard:category "Poste e Telegrafi"
+	; vcard:fn "Ufficio Bologna 37"
+	; vcard:extended-address "Via Pupilli Giancarlo 1, Bologna BO, Italy"
+	; vcard:latitude "44.494190"
+	; vcard:longitude "11.346519"
+	; vcard:tel "051 333066"
+	; vcard:fax "051 581541"
+	; cs:opening "Mon: 0800-1930. Tue, Wed, Thu, Fri: 0800-1330. Sat: 0800-1230."
+	; cs:closing "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: .".
+
+:pt0035
+	 vcard:category "Poste e Telegrafi"
+	; vcard:fn "Ufficio Bologna 38"
+	; vcard:extended-address "Via Canali Paolo 1, Bologna BO, Italy"
+	; vcard:latitude "44.513552"
+	; vcard:longitude "11.410777"
+	; vcard:tel "051 6331744"
+	; vcard:fax "051 6331708"
+	; cs:opening "Mon, Tue, Wed, Thu, Fri, Sat: 0700-1100."
+	; cs:closing "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: .".
+
+:pt0036
+	 vcard:category "Poste e Telegrafi"
+	; vcard:fn "Ufficio Bologna Aeroporto"
+	; vcard:extended-address "Via Triumvirato 84, Bologna BO, Italy"
+	; vcard:latitude "44.522737"
+	; vcard:longitude "11.293982"
+	; vcard:tel "051 6472356"
+	; vcard:fax "051 6472418"
+	; cs:opening "Mon, Tue, Wed, Thu, Fri: 0800-1830. Sat: 0800-1230."
+	; cs:closing "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: .".
+
+:pt0037
+	 vcard:category "Poste e Telegrafi"
+	; vcard:fn "Ufficio Bologna Centro"
+	; vcard:extended-address "Piazza Minghetti 1, Bologna BO, Italy"
+	; vcard:latitude "44.491618"
+	; vcard:longitude "11.344993"
+	; vcard:tel "051 230699"
+	; vcard:fax "051 261567"
+	; cs:opening "Mon, Tue, Wed, Thu, Fri: 0800-1830. Sat: 0800-1230."
+	; cs:closing "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: .".
+
+:pt0038
+	 vcard:category "Poste e Telegrafi"
+	; vcard:fn "Ufficio Bologna Emilia Levante"
+	; vcard:extended-address "Via Emilia Levante 7, Bologna BO, Italy"
+	; vcard:latitude "44.483523"
+	; vcard:longitude "11.374377"
+	; vcard:tel "051 6246522"
+	; vcard:fax "051 544259"
+	; cs:opening "Mon, Tue, Wed, Thu, Fri: 0800-1830. Sat: 0800-1230."
+	; cs:closing "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: .".
+
+:pt0039
+	 vcard:category "Poste e Telegrafi"
+	; vcard:fn "Ufficio Bologna Ponente"
+	; vcard:extended-address "Via Saffi Aurelio 30/32, Bologna BO, Italy"
+	; vcard:latitude "44.501264"
+	; vcard:longitude "11.321414"
+	; vcard:tel "051 5282913"
+	; vcard:fax "051 5282905"
+	; cs:opening "Mon, Tue, Wed, Thu, Fri: 0800-1830. Sat: 0800-1230."
+	; cs:closing "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: .".
+
+:pt0040
+	 vcard:category "Poste e Telegrafi"
+	; vcard:fn "Ufficio Bologna Roveri"
+	; vcard:extended-address "Via Canova Antonio 19/2, Bologna BO, Italy"
+	; vcard:latitude "44.485905"
+	; vcard:longitude "11.400536"
+	; vcard:tel "051 535611"
+	; vcard:fax "051 538294"
+	; cs:opening "Mon, Tue, Wed, Thu, Fri: 0800-1830. Sat: 0800-1230."
+	; cs:closing "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: .".

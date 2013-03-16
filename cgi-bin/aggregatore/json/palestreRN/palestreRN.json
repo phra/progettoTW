@@ -1,0 +1,232 @@
+{
+    "locations": {
+		"palestreRN0001": {
+			"category": ["Palestra"],
+			"name": "Palestra New Magic Body",
+			"address": "Via Melozzo da Forlì, 18 - Rimini RN",
+			"lat": "44.055089",
+			"long":"12.565626",
+			"tel": "0541 782310",
+			"opening": "Mon, Tue, Wed, Thu, Fri, Sat: 0930-1230, 1530-2000.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"palestreRN0002": {
+			"category": ["Palestra"],
+			"name": "Palestra Steven Sporting Club",
+			"address": "Via Circonvallazione Nuova, 57 - Rimini RN",
+			"lat": "44.04373",
+			"long":"12.561017",
+			"tel": "0541 778878",
+			"opening": "Mon, Tue, Wed, Thu, Fri, Sat: 0930-1930. Fri: 0800-1230.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"palestreRN0003": {
+			"category": ["Palestra"],
+			"name": "Palestra Wellness Club",
+			"address": "Via Dario Campana, 3 - Rimini RN",
+			"lat": "44.05899",
+			"long":"12.562521",
+			"tel": "0541 787167",
+			"opening": "Mon, Tue, Wed, Thu, Fri, Sat: 0930-1230, 1500-2000.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"palestreRN0004": {
+			"category": ["Palestra"],
+			"name": "Rimini Clinique Body Building Associaz.Sportiva E Culturale",
+			"address": "Via S. Giovanni, 7 - Rimini RN",
+			"lat": "44.070444",
+			"long":"12.565613",
+			"tel": "0541 782152",
+			"opening": "Mon, Tue, Wed, Thu, Fri, Sat: 0830-1230.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"palestreRN0005": {
+			"category": ["Palestra"],
+			"name": "Palestra Athena - Ginnastica Bodybuilding Sauna",
+			"address": "Via Clodia, 33 - Rimini RN",
+			"lat": "44.063948",
+			"long":"12.567405",
+			"tel": "0541 53336",
+			"opening": "Mon, Tue, Wed, Thu, Fri, Sat: 0930-1230, 14:30-1900.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"palestreRN0006": {
+			"category": ["Palestra"],
+			"name": "Futura Centro Danza & Fitness",
+			"address": "Via Giovanni Beltrame, 2 - Rimini RN",
+			"lat": "44.057305",
+			"long":"12.552645",
+			"tel": "0541 778560",
+			"opening": "Mon, Tue, Wed, Thu, Fri, Sat: 0900-1500. Fri: 0900-1630.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"palestreRN0007": {
+			"category": ["Palestra"],
+			"name": "C.u.s. Bologna A.s.d",
+			"address": "Via Carlo Cattaneo, 17 - Rimini RN",
+			"lat": "44.061578",
+			"long":"12.56968",
+			"tel": "0541 485930",
+			"opening": "Mon, Tue, Wed, Thu, Fri, Sat: 0830-1230, 1530-1900.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"palestreRN0008": {
+			"category": ["Palestra"],
+			"name": "K1 Academy & Muscle Club",
+			"address": "Via Vega, 50 - Rimini RN",
+			"lat": "44.049068",
+			"long":"12.561305",
+			"tel": "0541 775154",
+			"opening": "Mon, Tue, Wed, Thu, Fri, Sat: 0930-1230, 1530-1900. Fri: 0830-1500. ",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"palestreRN0009": {
+			"category": ["Palestra"],
+			"name": "Mantra Wellness Club",
+			"address": "Viale Paolo Toscanelli, 12 - Rimini RN",
+			"lat": "44.082506",
+			"long":"12.546495",
+			"tel": "0541 733772",
+			"opening": "Mon, Tue, Wed, Thu, Fri, Sat: 0830-1330, 1530-1930.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"palestreRN0010": {
+			"category": ["Palestra"],
+			"name": "Associazione Sport E Salute",
+			"address": "Via Guglielmo Oberdan, 34 - Rimini RN",
+			"lat": "44.062648",
+			"long":"12.569734",
+			"tel": "0541 21262",
+			"opening": "Mon, Tue, Wed, Thu, Fri, Sat: 0830-1530.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"palestreRN0011": {
+			"category": ["Palestra"],
+			"name": "Schilling Squash & Gym",
+                        "address": "Via Antonio Draghi, 12 - Rimini RN",
+			"lat": "44.042247",
+			"long":"12.587617",
+			"tel": "0541 386711",
+			"opening": "Mon, Tue, Wed, Thu, Fri, Sat: 0930-1330, 1530-1930. Fri: 0930-1630.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"palestreRN0012": {
+			"category": ["Palestra"],
+			"name": "RiminiWellness",
+			"address": "Via Emilia, 155 - Rimini RN",
+			"lat": "44.040571",
+			"long":"12.285729",
+			"tel": "0541 744618",
+			"opening": "Mon, Tue, Wed, Thu, Fri, Sat: 08:00-1230, 1530-1930.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"palestreRN0013": {
+			"category": ["Palestra"],
+			"name": "Cipriani Training - Gruppo Pesisti Riminese",
+			"address": "Via Arnaldo da Brescia, 8 - Rimini RN",
+			"lat": "44.040571",
+			"long":"12.265729",
+			"tel": "051 232243",
+			"opening": "Mon, Tue, Wed, Thu, Fri, Sat: 0800-1900.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"palestreRN0014": {
+			"category": ["Palestra"],
+			"name": "sport village",
+			"address": "Via Aquileia, 14 - Rimini RN",
+			"lat": "44.067962",
+			"long":"12.552352",
+			"tel": "0541 741030 ",
+			"opening": "Mon, Tue, Wed, Thu, Fri, Sat: 1000-1830. Fri:0900-1900.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"palestreRN0015": {
+			"category": ["Palestra"],
+			"name": "ASD Atelier Pilates - Rimini",
+			"address": "Via di Mezzo, 39 - Rimini RN",
+			"lat": "44.054176",
+			"long":"12.556825",
+			"tel": "347 925 1280",
+			"opening": "Mon, Tue, Wed, Thu, Fri, Sat: 0830-1900.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"palestreRN0016": {
+			"category": ["Palestra"],
+			"name": "New Aerobic Studios",
+			"address": "Viale Gabriele D'Annunzio, 133 - Rimini RN",
+			"lat": "44.037962",
+			"long":"12.59754",
+			"tel": "0541 645817",
+			"opening": "Mon, Tue, Wed, Thu, Fri, Sat: 0830-1230, 1530-1930.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"palestreRN0017": {
+			"category": ["Palestra"],
+			"name": "NEW BODY CLUB",
+			"address": "Via De Garattoni, 2e - Santarcangelo di Romagna Rimini RN",
+			"lat": "44.037997",
+			"long":"12.597542",
+			"tel": "0541 621815",
+			"opening": "Mon, Tue, Wed, Thu, Fri, Sat: 0930-1800. Fri:0900-1900.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"palestreRN0018": {
+			"category": ["Palestra"],
+			"name": "Polisportiva Comunale Riccione",
+			"address": "Viale Forlimpopoli, 15 - Riccione Rimini RN",
+			"lat": "44.034453",
+			"long":"12.579293",
+			"tel": "0541 643559",
+			"opening": "Mon, Tue, Wed, Thu, Fri, Sat: 0830-1930.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"palestreRN0019": {
+			"category": ["Palestra"],
+			"name": "New Gimnasium - Palestra ",
+			"address": "Viale Giuseppe Mazzini, 26 - Rimini RN",
+			"lat": "43.999698",
+			"long":"12.651439",
+			"tel": "0541 602732",
+			"opening": "Mon, Tue, Wed, Thu, Fri, Sat: 0830-1900.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"palestreRN0020": {
+			"category": ["Palestra"],
+			"name": "La Fraternita' Soc.Coop.Sociale A R.L. - Palestra A.G.23 ",
+			"address": "Via del Lavoro, 64 - Rimini RN",
+			"lat": "44.031987",
+			"long":"12.562024",
+			"tel": "0541 621488",
+			"opening": "Mon, Tue, Wed, Thu, Fri, 0930-1230, 14:30-1900. Fri: 0900-1800.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"palestreRN0021": {
+			"category": ["Palestra"],
+			"name": "Associazione Sportiva Activa Centro Fitness - Palestra ",
+			"address": "Via Andrea Costa, 98 - Rimini RN",
+			"lat": "44.066305",
+			"long":"12.441538",
+			"tel": "0541 622794",
+			"opening": "Mon, Tue, Wed, Thu, Fri, Sat:0930-1200, 1500-1930.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"palestreRN0022": {
+			"category": ["Palestra"],
+			"name": "Figurella Aurora Srl",
+			"address": "Via Giuseppe Mazzini, 16 - Rimini RN",
+			"lat": "44.064435",
+			"long":"12.448709",
+			"tel": "0541 623792",
+			"opening": "Mon, Tue, Wed, Thu, Fri, Sat: 0930-1230, 1500-1930. Fri: 0900-1800.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+
+		}
+	},
+	"metadata": {
+		"creator": "Working Group LTW 2011/2012",
+		"created": "2011-12-20",
+		"version": "1.1",
+		"source": "http://vitali.web.cs.unibo.it/TechWeb12/Formati",
+		"valid": "2011-12-31"
+	}
+}

@@ -1,0 +1,582 @@
+{
+    "locations": {
+		"superRN0001": {
+			"category": ["Supermarket"],
+			"name": "Centro Commerciale I Malatesta",
+			"address": "Via Emilia, 150 - Rimini RN",
+			"lat": "44.068516",
+			"long":"12.525344",
+			"tel": "0541 743310",
+			"opening": "Mon, Tue, Wed, Thu, Fri, Sat: 0930-2100.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"superRN0002": {
+			"category": ["Supermarket"],
+			"name": "Nuovo Conad Tiberio Di Semprini Sandra E C.",
+			"address": "Viale Tiberio, 32- Rimini RN",
+			"lat": "44.065772",
+			"long":"12.56079",
+			"tel": "0541 52147",
+			"opening": "Mon, Tue, Wed, Thu, Sat: 0830-2030. Fri: 1230-2030.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"superRN0003": {
+			"category": ["Supermarket"],
+			"name": "S.g.i. srl",
+			"address": "Via Macanno, 13 - Rimini RN",
+			"lat": "44.044176",
+			"long":"12.582045",
+			"tel": "0541 769611",
+			"opening": "Mon, Tue, Wed, Thu, Fri, Sun: 1000-1400.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"superRN0004": {
+			"category": ["Supermarket"],
+			"name": "Co.De.As. Di Manuelli Agostino & C. (S.N.C.)",
+			"address": "Via Giaime Pintor, 7 - Rimini RN",
+			"lat": "44.044167",
+			"long":"12.582006",
+			"tel": "0541 383617",
+			"opening": "Mon, Tue, Wed, Thu, Fri, Sat: 0830-2030. Sun: 0830-1230.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"superRN0005": {
+			"category": ["Supermarket"],
+			"name": "Conad Euromarket - Mercato Coperto",
+			"address": "Via Castelfidardo, 15 - Rimini RN",
+			"lat": "44.059523",
+			"long":"12.572269",
+			"tel": "0541 53064",
+			"opening": "Mon, Tue, Wed, Thu, Fri, Sat: 0830-2100. Sun: 0930-2000.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"superRN0006": {
+			"category": ["Supermarket"],
+			"name": "R.a.p. Di Renzini Adamo E C. S.n.c",
+			"address": "Via Carlo Cattaneo, 9 - Rimini RN",
+			"lat": "44.059528",
+			"long":"12.572265",
+			"tel": "0541 55326",
+			"opening": "Mon, Tue, Wed, Thu, Fri, Sat: 0900-2100. Sun: 0930-2000.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"superRN0007": {
+			"category": ["Supermarket"],
+			"name": "Grosrimini - Centro Commerciale Ingrosso Rimini Spa",
+			"address": "Via Coriano, 58 - Rimini RN",
+			"lat": "44.036125",
+			"long":"12.580335",
+			"tel": "0541 386602",
+			"opening": "Mon, Tue, Wed, Thu, Fri, Sat: 0830-2030. Sun: 0830-1230.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"superRN0008": {
+			"category": ["Supermarket"],
+			"name": "Shopping Centre Le Befane",
+			"address": "Via Circonvallazione Nuova, 85 - Rimini RN",
+			"lat": "44.036146",
+			"long":"12.580376",
+			"tel": "0541 387995",
+			"opening": "Mon, Tue, Wed, Thu, Fri, Sat: 0830-2100.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"superRN0009": {
+			"category": ["Supermarket"],
+			"name": "Super Market Oriental Sas Di Chen Zhaoyun",
+			"address": "Via Alessandro Gambalunga, 70 - Rimini RN",
+			"lat": "44.063324",
+			"long":"12.569762",
+			"tel": "0541 20930",
+			"opening": "Mon, Tue, Wed, Thu, Fri, Sat: 0830-2000.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"superRN0010": {
+			"category": ["Supermarket"],
+			"name": "Coin",
+			"address": "Corso d'Augusto, 59 - Rimini RN",
+			"lat": "44.059114",
+			"long":"12.56769",
+			"tel": "0541 28954",
+			"opening": "Mon, Tue, Wed, Thu, Fri, Sat: 0900-2000.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"superRN0011": {
+			"category": ["Supermarket"],
+			"name": "Superstore Conad La Fonte",
+			"address": "Viserba - Viserba RN",
+			"lat": "44.082251",
+			"long":"12.538447",
+			"tel": "0541 732238",
+			"opening": "Mon, Tue, Wed, Thu, Fri, Sat: 0830-2000. Sun: 0800-1230.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"superRN0012": {
+			"category": ["Supermarket"],
+			"name": "Incoop Miramare",
+			"address": "Viale Guglielmo Marconi, 45 - Rimini RN",
+			"lat": "44.082283",
+			"long":"12.53849",
+			"tel": "0541 373141",
+			"opening": "Mon, Tue, Wed, Thu, Fri, Sat: 0830-2100. Sun: 0930-1930.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"superRN0013": {
+			"category": ["Supermarket"],
+			"name": "Amarcord S.R.L.",
+			"address": "Viale Amerigo Vespucci, 67 - Rimini RN",
+			"lat": "44.067636",
+			"long":"12.580809",
+			"tel": "0541 56956",
+			"opening": "Mon, Tue, Wed, Thu, Fri, Sat: 0900-2030. Sun: 0800-1900.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"superRN0014": {
+			"category": ["Supermarket"],
+			"name": "Rimini Centro Di Bucci Loris E Pancotti Iuri Snc",
+			"address": "Via Alessandro Serpieri, 12 - Rimini RN",
+			"lat": "44.067638",
+			"long":"12.580805",
+			"tel": "0541 56833",
+			"opening": "Mon, Tue, Wed, Thu, Fri, Sat: 0900-2100. Sun: 0800-1900.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"superRN0015": {
+			"category": ["Supermarket"],
+			"name": "Supermercato Superstore Conad Rio Agina Di Bernardini Renato, Cecchini Giorgio & C. Snc",
+			"address": "V Don Milani, 5 - Misano Adriatico 47843 RN",
+			"lat": "43.978016",
+			"long":"12.688834",
+			"tel": "0541 612432",
+			"opening": "Tue, Wed, Thu, Sat: 0800-1930.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"superRN0016": {
+			"category": ["Supermarket"],
+			"name": "Sviluppo Discount (S.P.A.)",
+			"address": "Via 23 Settembre 1845, 85 - Rimini RN",
+			"lat": "44.03808",
+			"long":"12.592414",
+			"tel": "0541 741709",
+			"opening": "Mon, Tue, Wed, Thu, Fri, Sat: 0900-2030. Sun: 0930-1930.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"superRN0017": {
+			"category": ["Supermarket"],
+			"name": "Dulca S.r.l",
+			"address": "Via Coriano, 58 - Rimini RN",
+			"lat": "44.036125",
+			"long":"12.580335",
+			"tel": "0541 396238",
+			"opening": "Mon, Tue, Wed, Thu, Fri, Sat: 0900-2030. Sun: 0800-1230.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"superRN0018": {
+			"category": ["Supermarket"],
+			"name": "Euromarket G.E.A. - Gruppo Esercenti Associati Di Zannoni Stefano C.",
+			"address": "Via della Fiera, 2 - Rimini RN",
+			"lat": "44.053097",
+			"long":"12.572172",
+			"tel": "0541 788391",
+			"opening": "Mon, Tue, Wed, Fri, Sat: 0800-2100. Sun: 0800-1230.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"superRN0019": {
+			"category": ["Supermarket"],
+			"name": "Iper Rimini",
+			"address": "Via Emilia, 130 - Rimini RN",
+			"lat": "44.06852",
+			"long":"12.530393",
+			"tel": "0541 359111",
+			"opening": "Mon, Tue, Wed, Fri, Sat: 0830-2100.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"superRN0020": {
+			"category": ["Supermarket"],
+			"name": "C.N.C. Di Lombardi Antonio E C. Snc",
+			"address": "Via Angelo Cenci, 2 - Rimini RN",
+			"lat": "44.084455",
+			"long":"12.531383",
+			"tel": "0541 736531",
+			"opening": "Mon, Tue, Wed, Thu, Fri, Sat: 0800-2100. Sun: 0900-1900.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"superRN0021": {
+			"category": ["Supermarket"],
+			"name": "Pan Biscotto Biodinamico",
+			"address": "Via Castelfidardo, 13 - Rimini RN",
+			"lat": "44.060086",
+			"long":"12.571709",
+			"tel": "0541 54803",
+			"opening": "Mon, Tue, Wed, Thu, Sat: 0800-1400. Sun: 0800-1230.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"superRN0022": {
+			"category": ["Supermarket"],
+			"name": "Coop Rimini Celle",
+			"address": "Via 23 Settembre 1845, 128 - Rimini RN",
+			"lat": "44.068791",
+			"long":"12.549299",
+			"tel": "0541 74170",
+			"opening": "Mon, Tue, Wed, Thu, Fri, Sat: 0830-2030. Sun: 0800-1230.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"superRN0023": {
+			"category": ["Supermarket"],
+			"name": "Biagini - Ingrosso Alimentari",
+			"address": "Via Rughi, 280 - Santarcangelo di Romagna, RN",
+			"lat": "44.061206",
+			"long":"12.459604",
+			"tel": "0541 621168",
+			"opening": "Mon, Tue, Wed, Thu, Fri, Sat: 0900-1930. Sun: 0800-1230.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"superRN0024": {
+			"category": ["Supermarket"],
+			"name": "Eurosisagroup S.R.L. Supermercato",
+			"address": "Via Covignano, 117/a - Rimini RN",
+			"lat": "44.049411",
+			"long":"12.556225",
+			"tel": "0541 773190",
+			"opening": "Mon, Tue, Wed, Fri, Sat: 0830-2000. Sun: 0800-1230.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"superRN0025": {
+			"category": ["Supermarket"],
+			"name": "Soges Srl Supermercato",
+			"address": "Viale Parigi, 10 - Rimini RN",
+			"lat": "44.028766",
+			"long":"12.61472",
+			"tel": "0541 478963",
+			"opening": "Mon, Tue, Wed, Thu, Fri, Sat: 0800-2000.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"superRN0026": {
+			"category": ["Supermarket"],
+			"name": "Dial S.r.l.",
+			"address": "Via Lucio Lando, 3 - Rimini RN",
+			"lat": "44.069323",
+			"long":"12.567093",
+			"tel": "0541 709126",
+			"opening": "Mon, Tue, Wed, Fri, Sat: 0800-2030. Thu: 0900-1330.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"superRN0027": {
+			"category": ["Supermarket"],
+			"name": "E.M.P Snc Di Muratori Dario E C. - Alimentari ",
+			"address": "Via Dario Campana, 93 - Rimini RN",
+			"lat": "44.069334",
+			"long":"12.567072",
+			"tel": "0541 772140",
+			"opening": "Mon, Tue, Wed, Thu, Fri, Sat: 0800-2130. Sun: 0800-1330.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"superRN0028": {
+			"category": ["Supermarket"],
+			"name": "Ermeti - Alimentari",
+			"address": "Via Giuseppe Regaldi - Rimini RN",
+			"lat": "44.049075",
+			"long":"12.596368",
+			"tel": "0541 380464",
+			"opening": "Mon, Tue, Wed, Thu, Fri, Sun: 0830-1230. Sat: 0830-2000.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"superRN0029": {
+			"category": ["Supermarket"],
+			"name": "Rimini Market Di Sfera Vincenzo  C. S.N.C.",
+			"address": "Via Primo Maggio, 1 - Rimini RN",
+			"lat": "44.044751",
+			"long":"12.581536",
+			"tel": "0541 380800",
+			"opening": "Tue, Wed, Thu, Fri: 0830-2000. Mon: 1230-1900. Sat: 0830-1930.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"superRN0030": {
+			"category": ["Supermarket"],
+			"name": "Emmedi Srl",
+			"address": "Viale Antonio Beccadelli, 37 - Rimini RN",
+			"lat": "44.07115",
+			"long":"12.577861",
+			"tel": "0541 191 3470",
+			"opening": "Mon, Tue, Thu, Fri: 0800-2000. Wed: 0900-1400. Sat: 0830-2030.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"superRN0031": {
+			"category": ["Supermarket"],
+			"name": "Buratta - Alimentari Vendita",
+			"address": "Viale Giovanni Pascoli, 73 - Rimini RN",
+			"lat": "44.052108",
+			"long":"12.579321",
+			"tel": "0541 387668",
+			"opening": "Tue, Wed, Thu, Fri, Sat: 0900-2100. Sun: 0900-1230.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"superRN0032": {
+			"category": ["Supermarket"],
+			"name": "Bizzocchi - Generi Alimentari",
+			"address": "Via Madonna della Scala, 51 - Rimini RN",
+			"lat": "44.06729",
+			"long":"12.562251",
+			"tel": "0541 52464",
+			"opening": "Mon, Tue, Fri, Wed, Thu, Sun: 0830-1330. Sat: 0900-1930.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"superRN0033": {
+			"category": ["Supermarket"],
+			"name": "Rinaldi - Alimentari Crai",
+			"address": "Via Dario Campana, 11 - Rimini RN",
+			"lat": "44.058962",
+			"long":"12.554869",
+			"tel": "0541 773040",
+			"opening": "Mon, Tue, Thu, Fri: 0800-2000. Wed: 0830-1430. Sat: 0830-2030.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"superRN0034": {
+			"category": ["Supermarket"],
+			"name": "Lombardini Discount S.P.A.",
+			"address": "Viale della Repubblica, 100 - Rimini RN",
+			"lat": "44.043507",
+			"long":"12.57359",
+			"tel": "0541 309166",
+			"opening": "Mon, Tue, Thu, Fri, Sat: 0830-2000. Wed: 0800-1330. Sun: 0900-1230.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"superRN0035": {
+			"category": ["Supermarket"],
+			"name": "Alimentari Selva Mirco",
+			"address": "Via Michelangelo Zanotti, 2 - Rimini RN",
+			"lat": "44.050962",
+			"long":"12.589258",
+			"tel": "0541 380076",
+			"opening": "Tue, Wed, Thu, Fri, Sat: 0800-2100. Sun: 0900-1230.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"superRN0036": {
+			"category": ["Supermarket"],
+			"name": "Mare Market Di Grilli Secondino E C.(S.N.C.) - Alimentari",
+			"address": "Viale Regina Elena, 82 - Rimini RN",
+			"lat": "44.057589",
+			"long":"12.591703",
+			"tel": "0541 381373 ",
+			"opening": "Tue, Wed, Thu, Fri, Sat: 0830-1930. Sun: 0900-1230.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"superRN0037": {
+			"category": ["Supermarket"],
+			"name": "Co.de.as. S.n.c",
+			"address": "Via Giaime Pintor, 7 - Rimini RN",
+			"lat": "44.047863",
+			"long":"12.590749",
+			"tel": "0541 307320",
+			"opening": "Tue, Wed, Thu, Fri, Sat: 0930-2100. Mon: 1400-2100.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"superRN0038": {
+			"category": ["Supermarket"],
+			"name": "Garattoni - Alimentari",
+			"address": "Via Daniele Felici, 19 - Santarcangelo di Romagna, RN",
+			"lat": "44.007139",
+			"long":"12.64534",
+			"tel": "0541 626082",
+			"opening": "Tue, Wed, Thu, Fri, Sat: 0830-2100. Sun: 0900-1330.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"superRN0039": {
+			"category": ["Supermarket"],
+			"name": "Flaminia Alimentari Snc Di Neri Mauro E Dal Pozzo Davide - Ingrosso Latticini Salumi",
+			"address": "Via Flaminia, 203 - Rimini RN",
+			"lat": "44.036407",
+			"long":"12.598913",
+			"tel": "0541 384064",
+			"opening": "Tue, Wed, Thu, Fri: 0830-2130. Mon: 1300-2130. Sat: 0930-2000. Sun: 0900-1230.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"superRN0040": {
+			"category": ["Supermarket"],
+			"name": "Vip Discount (S.R.L.)",
+			"address": "Viale Italia, 2 - Rimini RN",
+			"lat": "44.078848",
+			"long":"12.462835",
+			"tel": "0541 740310",
+			"opening": "Tue, Wed, Thu, Fri: 0930-2130. Sat: 0830-2100. Sun: 0930-1230.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"superRN0041": {
+			"category": ["Supermarket"],
+			"name": "Giua - Alimentari",
+			"address": "Viale Trieste, 34 - Rimini RN",
+			"lat": "44.066567",
+			"long":"12.577549",
+			"tel": "0541 27348",
+			"opening": "Mon, Tue, Wed, Thu, Fri: 0930-1930. Sat: 0830-2100. Sun: 0930-1330.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"superRN0042": {
+			"category": ["Supermarket"],
+			"name": "Supermercato La Fonte Di Bellavista Giuseppe E C. S.N.C.",
+			"address": "Via Sacramora, 62 - Rimini RN",
+			"lat": "44.082758",
+			"long":"12.537256",
+			"tel": "0541 735547",
+			"opening": "Mon, Tue, Wed, Thu, Fri, Sat: 0900-1930. Sun: 0900-1330.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"superRN0043": {
+			"category": ["Supermarket"],
+			"name": "Santamaria - Alimentari",
+			"address": "Viale Misurata, 7 - Rimini RN",
+			"lat": "44.06483",
+			"long":"12.583466",
+			"tel": "0541 391722",
+			"opening": "Mon, Tue, Wed, Fri, Sat: 0800-2100. Sun: 0800-1330.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"superRN0044": {
+			"category": ["Supermarket"],
+			"name": "Gemi Di Izzo Michele e C. Snc",
+			"address": "Viale Giovanni Pascoli, 33 - Rimini RN",
+			"lat": "44.053021",
+			"long":"12.580592",
+			"tel": "0541 385704",
+			"opening": "Mon, Tue, Wed, Fri, Sat: 0745-1930. Sun: 0930-1230.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"superRN0045": {
+			"category": ["Supermarket"],
+			"name": "Valente - Frutta - Verdura",
+			"address": "Via Acquario, 66 - Rimini RN",
+			"lat": "44.048847",
+			"long":"12.561965",
+			"tel": "0541 772563",
+			"opening": "Mon, Tue, Wed, Thu, Fri, Sat: 0930-2030.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"superRN0046": {
+			"category": ["Supermarket"],
+			"name": "CONAD Mita",
+			"address": "Via Padulli, 1 - Rimini RN",
+			"lat": "44.053076",
+			"long":"12.544654",
+			"tel": "0541 778262 ",
+			"opening": "Mon, Tue, Wed, Thu, Fri, Sat: 0830-2000. Sun: 0900-1330.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"superRN0047": {
+			"category": ["Supermarket"],
+			"name": "Semprini",
+			"address": "Viale Paolo Toscanelli, 132 - Rimini RN",
+			"lat": "44.082244",
+			"long":"12.547011",
+			"tel": "0541 732881",
+			"opening": "Mon, Tue, Wed, Thu, Fri, Sat: 0800-1930. Sun: 0800-1330.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"superRN0048": {
+			"category": ["Supermarket"],
+			"name": "A.p.e. S.n.c.",
+			"address": "Via Euterpe, 3 - Rimini RN",
+			"lat": "44.044466",
+			"long":"12.566904",
+			"tel": "0541 772041",
+			"opening": "Mon, Tue, Wed, Thu, Fri, Sat: 0900-2000. Sun: 0830-1230.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"superRN0049": {
+			"category": ["Supermarket"],
+			"name": "Gessaroli - Bar Latteria Alimentari Salumeria",
+			"address": "Via Eugenio Curiel, 36 - Rimini RN",
+			"lat": "44.08848",
+			"long":"12.532904",
+			"tel": "0541 734794",
+			"opening": "Mon, Tue, Wed, Thu, Fri, Sat: 0900-2000.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"superRN0050": {
+			"category": ["Supermarket"],
+			"name": "Morri Francesco E Alessandro Generi Alimentari Snc - Alimentari",
+			"address": "Via Marecchiese, 564 - Rimini RN",
+			"lat": "44.02011",
+			"long":"12.453204",
+			"tel": "0541 750126",
+			"opening": "Mon, Tue, Wed, Thu, Fri, Sat: 0800-2030. Sun: 0800-1230.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"superRN0051": {
+			"category": ["Supermarket"],
+			"name": "Centro Commerciale Condor",
+			"address": "Via Macanno, 59 - Rimini RN",
+			"lat": "44.041808",
+			"long":"12.583503",
+			"tel": "0541 386180",
+			"opening": "Mon, Tue, Wed, Thu, Fri, Sat: 0900-1930.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"superRN0052": {
+			"category": ["Supermarket"],
+			"name": "Conad Rio Agina Di Ottaviani Giuseppececchini Giorgio E C Snc",
+			"address": "Viale Veneto, 43 - Riccione Rimini RN",
+			"lat": "43.998902",
+			"long":"12.630182",
+			"tel": "0541 660571",
+			"opening": "Mon, Tue, Wed, Thu, Fri, Sat: 0830-2000.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"superRN0053": {
+			"category": ["Supermarket"],
+			"name": "Arca Spa - Super Aro",
+			"address": "Viale Maria Ceccarini, 156 -Riccione Rimini RN ",
+			"lat": "43.998532",
+			"long":"12.654481",
+			"tel": "0541 606426",
+			"opening": "Mon, Tue, Wed, Thu, Fri: 0830-1930. Sat: 0830-2100.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"superRN0054": {
+			"category": ["Supermarket"],
+			"name": "Euromarket Di Angelini Ado e C.(S.N.C.)",
+			"address": "Viale Torquato Tasso, 110 - Riccione Rimini RN",
+			"lat": "43.998495",
+			"long":"12.654533",
+			"tel": "0541 646514",
+			"opening": "Mon, Tue, Wed, Thu, Fri: 0800-1430. Sat: 0800-1930. Sun: 0900-1230.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"superRN0055": {
+			"category": ["Supermarket"],
+			"name": "Maccaroni - Alimentari Frutta Verdura",
+			"address": "Viale Luigi Angeloni, 11 - Riccione Rimini RN",
+			"lat": "44.014299",
+			"long":"12.642174",
+			"tel": "0541 647650",
+			"opening": "Mon, Tue, Wed, Thu, Fri, Sat: 0800-2100.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"superRN0056": {
+			"category": ["Supermarket"],
+			"name": "Eurosisagroup Srl",
+			"address": "Via Montescudo, 14 - Coriano Rimini, RN",
+			"lat": "43.986639",
+			"long":"12.570627",
+			"tel": "0541 659019",
+			"opening": "Mon, Tue, Wed, Thu, Fri, Sat: 0830-2100.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"superRN0057": {
+			"category": ["Supermarket"],
+			"name": "C.N.C. Di Lombardi Antonio E C. Snc.",
+			"address": "Via Piave, 16 - Santarcangelo di Romagna, RN",
+			"lat": "44.084455",
+			"long":"12.531383",
+			"tel": "0541 621666",
+			"opening": "Tue, Wed, Thu, Fri, Sat: 0800-2100. Mon: 1330-2030.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		}
+	},
+	"metadata": {
+		"creator": "Working Group LTW 2011/2012",
+		"created": "2011-12-20",
+		"version": "1.1",
+		"source": "http://vitali.web.cs.unibo.it/TechWeb12/Formati",
+		"valid": "2012-12-31"
+	}
+}
+

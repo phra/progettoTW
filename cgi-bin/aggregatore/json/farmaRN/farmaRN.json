@@ -1,0 +1,382 @@
+{
+	"locations": {
+		"farmaRN0001": {
+			"category": ["Farmacia"],
+			"name": "Farmacia Centrale Della Dr. Santini Elena",
+			"address": "Piazza Cavour, 2 - Rimini RN",
+			"lat": "44.060881",
+			"long":"12.566509",
+			"tel": "0541 27273",
+			"opening": "Mon, Tue, Wed, Thu, Fri, Sat: 0830-1230.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"farmaRN0002": {
+			"category": ["Farmacia"],
+			"name": "Farmacia Comunale N.6",
+			"address": "Via Euterpe, 2/d - Rimini RN",
+			"lat": "44.095476",
+			"long":"12.561836",
+			"tel": "0541 778606",
+			"opening": "Mon, Tue, Wed, Thu, Fri, Sat: 0930-1330.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"farmaRN0003": {
+			"category": ["Farmacia"],
+			"name": "Farmacia San Michele Di Ghetti Patrizia",
+			"address": "Via Circonvallazione Occidentale, 120 - Rimini RN",
+			"lat": "44.061042",
+			"long":"12.563045",
+			"tel": "0541 781488",
+			"opening": "Mon, Tue, Wed, Thu, Fri: 0830-1230, 1530-1930.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"farmaRN0004": {
+			"category": ["Farmacia"],
+			"name": "Farmacia Comunale N.1 S.Francesco",
+			"address": "Via Michele Rosa, 3 - Rimini RN",
+			"lat": "44.05893",
+			"long":"12.571471",
+			"tel": "0541 24414",
+			"opening": "Mon, Tue, Wed, Thu, Fri: 0830-1230, 1530-1930.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"farmaRN0005": {
+			"category": ["Farmacia"],
+			"name": "Farmacia Al Porto",
+			"address": "Via Ennio Coletti, 55 - Rimini RN",
+			"lat": "44.095476",
+			"long":"12.561836",
+			"tel": "0541 55258",
+			"opening": "Mon, Tue, Wed, Thu, Fri, Sat: 0830-1230, 1530-1930.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"farmaRN0006": {
+			"category": ["Farmacia"],
+			"name": "Farmacia Deluigi Del Dr. Deluigi Roberto",
+			"address": "Via di Mezzo, 63 - Rimini RN",
+			"lat": "44.052119",
+			"long":"12.553009",
+			"tel": "0541 790055",
+			"opening": "Mon, Tue, Wed, Thu, Fri, Sat: 0900-1230.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"farmaRN0007": {
+			"category": ["Farmacia"],
+			"name": "Farmacia Arrigoni Del Dott. Alessandro Broccoli & C. Sas",
+			"address": "Via Ennio Coletti, 186 - Rimini RN",
+			"lat": "44.076945",
+			"long":"12.554922",
+			"tel": "0541 50152",
+			"opening": "Mon, Tue, Wed, Thu, Fri, Sat: 0830-1230, 1500-1930.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"farmaRN0008": {
+			"category": ["Farmacia"],
+			"name": "Farmacia Vallesi Di Anna Ed Elena Focchi S.N.C. Omeopatia Preparazioni Galeniche Prodotti Naturali",
+			"address": "Corso d'Augusto, 44 - Rimini RN",
+			"lat": "44.059365",
+			"long":"12.568423",
+			"tel": "0541 439542",
+			"opening": "Mon, Tue, Wed, Thu, Fri: 0830-1230, 1530-1930.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"farmaRN0009": {
+			"category": ["Farmacia"],
+			"name": "Farmacia Del Kursal Di Fratti Sandra",
+			"address": "Viale Amerigo Vespucci, 12 - Rimini RN",
+			"lat": "44.070223",
+			"long":"12.57877",
+			"tel": "0541 21711",
+			"opening": "Mon, Tue, Wed, Thu, Fri, Sat: 0900-1230.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"farmaRN0010": {
+			"category": ["Farmacia"],
+			"name": "Farmacia Comunale N. 4",
+			"address": "Via Marecchiese, 136 - Rimini RN",
+			"lat": "44.095476",
+			"long":"12.561836",
+			"tel": "0541 773614",
+			"opening": "Mon, Tue, Wed, Thu, Fri: 0830-1230, 1530-1930.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"farmaRN0011": {
+			"category": ["Farmacia"],
+			"name": "Farmacia Antica Farmacia Al Lido",
+			"address": "Piazza Marvelli, 7 - Rimini RN",
+			"lat": "44.063651",
+			"long":"12.585367",
+			"tel": "0541 390640",
+			"opening": "Mon, Tue, Wed, Thu, Fri, Sat: 0800-1230, 1530-1830.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"farmaRN0012": {
+			"category": ["Farmacia"],
+			"name": "Farmacia Gotti",
+			"address": "Viale Tripoli, 76 - Rimini RN",
+			"lat": "44.095476",
+			"long":"12.561836",
+			"tel": "0541 901201",
+			"opening": "Mon, Tue, Wed, Thu, Fri: 0830-1230, 1530-1930.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"farmaRN0013": {
+			"category": ["Farmacia"],
+			"name": "Farmacia Rivazzurra",
+			"address": "Viale Regina Margherita, 131 - Rimini RN",
+			"lat": "44.039245",
+			"long":"12.61205",
+			"tel": "0541 372352",
+			"opening": "Mon, Tue, Wed, Thu, Fri, Sat: 0900-1230, 1530-1930.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"farmaRN0014": {
+			"category": ["Farmacia"],
+			"name": "Farmacia Lido Di Battistini Paola",
+			"address": "Via Brandolino, 8 - Rimini RN",
+			"lat": "44.095476",
+			"long":"12.561836",
+			"tel": "0541 191 2731",
+			"opening": "Mon, Tue, Wed, Thu, Fri, Sat: 0800-1230, 1530-1900.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"farmaRN0015": {
+			"category": ["Farmacia"],
+			"name": "Battistini",
+			"address": "Via Brandolino, 8 - Rimini RN",
+			"lat": "44.041874",
+			"long":"12.341415",
+			"tel": "0541 25253",
+			"opening": "Mon, Tue, Wed, Thu, Fri, Sat: 0900-1230.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"farmaRN0016": {
+			"category": ["Farmacia"],
+			"name": "Farmacia Villaggio Nuovo Del Dr. Giovanni Pagnini",
+			"address": "Via Santarosa Santorre, 7 - Rimini RN",
+			"lat": "44.020273",
+			"long":"12.361461",
+			"tel": "0541 373196",
+			"opening": "Mon, Tue, Wed, Thu, Fri: 0830-1230, 1530-1930.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"farmaRN0017": {
+			"category": ["Farmacia"],
+			"name": "Farmacia San Gaudenzo - Dott. Vanna Vanni",
+			"address": "Via Marecchiese, 234 - Rimini RN",
+			"lat": "44.032307",
+			"long":"12.321206",
+			"tel": "0541 785570",
+			"opening": "Mon, Tue, Wed, Thu, Fri, Sat: 0830-1230.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"farmaRN0018": {
+			"category": ["Farmacia"],
+			"name": "Antica Farmacia Al Lido Dei Dottori Mattia Muratori E Roberta Vertagli",
+			"address": "Viale Amerigo Vespucci, 137 - Rimini RN",
+			"lat": "44.063819",
+			"long":"12.585226",
+			"tel": "0541 307832",
+			"opening": "Mon, Tue, Wed, Thu, Fri, Sat: 0830-1230.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"farmaRN0019": {
+			"category": ["Farmacia"],
+			"name": "Farmacia Comunale N.2",
+			"address": "Via Covignano, 154 - Rimini RN",
+			"lat": "44.063819",
+			"long":"12.585226",
+			"tel": "0541 771446",
+			"opening": "Mon, Tue, Wed, Thu, Fri: 0830-1230, 1530-1930.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"farmaRN0020": {
+			"category": ["Farmacia"],
+			"name": "Farmacia Massani Dr. Anna",
+			"address": "Farmacia Massani Dr. Anna - Rimini RN",
+			"lat": "44.040088",
+                        "long":"12.575676",
+			"tel": "0541 389440",
+			"opening": "Mon, Tue, Wed, Thu, Fri, Sat: 0830-1230, 1500-1930.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"farmaRN0021": {
+			"category": ["Farmacia"],
+			"name": "Farmacia Cantelli",
+			"address": "Via dei Martiri, 11 - Rimini RN",
+			"lat": "44.03412",
+                        "long": "12.604579",
+			"tel": "0541 22555",
+			"opening": "Mon, Tue, Wed, Thu, Fri, Sat: 0900-1230, 1530-1930.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"farmaRN0022": {
+			"category": ["Farmacia"],
+			"name": "Farmacia Fabbri Di Fabbri Chiara",
+			"address": "Viale Porto Palos, 37 - Rimini RN",
+			"lat": "44.09592",
+			"long":"12.52695",
+			"tel": "0541 721554",
+			"opening": "Mon, Tue, Wed, Thu, Fri: 0830-1230, 1530-1930.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"farmaRN0023": {
+			"category": ["Farmacia"],
+			"name": "Associazione Titolari Di Farmacia Della Provincia Di Rimini",
+			"address": "Via Cesare Clementini, 2 - Rimini RN",
+			"lat": "44.061624",
+			"long":"12.572751",
+			"tel": "0541 54286",
+			"opening": "Mon, Tue, Wed, Thu, Fri, Sat: 0800-1330.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"farmaRN0024": {
+			"category": ["Farmacia"],
+			"name": "Farmacia Dupre",
+            "address": "Corso d'Augusto, 84 - Rimini RN",
+            "lat": "44.054872",
+			"long":"12.580881",
+			"tel": "0541 24509",
+			"opening": "Mon, Tue, Wed, Thu, Fri, Sat: 0900-1230.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"farmaRN0025": {
+			"category": ["Farmacia"],
+			"name": "Farmacia Donati Merlini Di Donati A. E C. (S.N.C.)",
+			"address": "Viale Regina Elena, 44 - Rimini RN",
+			"lat": "44.021715",
+			"long":"12.364987",
+			"tel": "0541 381554",
+			"opening": "Mon, Tue, Wed, Thu, Fri: 0900-1230, 1530-1900.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"farmaRN0026": {
+			"category": ["Farmacia"],
+			"name": "Farmacia Versari",
+			"address": "Viale Tiberio, 47 - Rimini RN",
+			"lat": "44.064733",
+			"long":"12.562592",
+			"tel": "0",
+			"opening": "Mon, Tue, Wed, Thu, Fri, Sat: 0900-1230, 1500-2000.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"farmaRN0027": {
+			"category": ["Farmacia"],
+			"name": "Amfa S.P.A.Farmacia Comunale N.5",
+			"address": "Via Flaminia, 48 - Rimini RN",
+			"lat": "44.066374",
+			"long":"12.580891",
+			"tel": "0541 305467",
+			"opening": "Mon, Tue, Wed, Thu, Fri: 0900-1230, 1530-1900.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"farmaRN0028": {
+			"category": ["Farmacia"],
+			"name": "Farmacia Gotti Del Dott. Piergiorgio Diotalevi Maestroni E C. Societa",
+			"address": "Viale Tripoli, 76 - Rimini RN",
+			"lat": "44.031755",
+			"long":"12.342860",
+			"tel": "0541 781253",
+			"opening": "Mon, Tue, Wed, Thu, Fri, Sat: 0800-1230.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"farmaRN0029": {
+			"category": ["Farmacia"],
+			"name": "Farmacia Celle",
+			"address": "Via 23 Settembre 1845, 154/g - Rimini RN",
+			"lat": "44.069436",
+			"long":"12.546969",
+			"tel": "0541 740714",
+			"opening": "Mon, Tue, Wed, Thu, Fri, Sat: 0830-1230, 1500-1930.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"farmaRN0030": {
+			"category": ["Farmacia"],
+			"name": "Farmacia Lido",
+			"address": "Viale San Salvador, 51 - Rimini RN",
+			"lat": "44.106385",
+			"long":"12.513565",
+			"tel": "0541 722300",
+			"opening": "Mon, Tue, Wed, Thu, Fri, Sat: 0800-1300.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"farmaRN0031": {
+			"category": ["Farmacia"],
+			"name": "Farmacia Bellariva",
+			"address": "Viale Luigi Settembrini, 17 - Rimini RN",
+			"lat": "44.043647",
+			"long":"12.590479",
+			"tel": "0541 380218",
+			"opening": "Mon, Tue, Wed, Thu, Fri, Sat: 0800-1230.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"farmaRN0032": {
+			"category": ["Farmacia"],
+			"name": "Farmacia Dott. Venturini",
+			"address": "Via Dario Campana, 47 - Rimini RN",
+			"lat": "44.058371",
+			"long":"12.558327",
+			"tel": "0541 772423",
+			"opening": "Mon, Tue, Wed, Thu, Fri: 0830-1230, 1530-1930.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"farmaRN0033": {
+			"category": ["Farmacia"],
+			"name": "Farmacia Miramare",
+			"address": "Viale Regina Margherita, 261 - Rimini RN",
+			"lat": "44.031975",
+			"long":"12.620876",
+			"tel": "0541 377420",
+			"opening": "Mon, Tue, Wed, Thu, Fri, Sat: 0830-1230, 1530-1930.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"farmaRN0034": {
+			"category": ["Farmacia"],
+			"name": "Farmacia Tonini Di Biasini Silvia",
+			"address": "Via Alfredo Panzini, 114 - Bellaria-Igea Marina  RN",
+			"lat": "44.13844",
+			"long":"12.478285",
+			"tel": "0541 344227",
+			"opening": "Mon, Tue, Wed, Thu, Fri, Sat: 0900-1230.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"farmaRN0035": {
+			"category": ["Farmacia"],
+			"name": "Farmacia Corpolo' Del Dr. Noe' William",
+			"address": "Via Marecchiese, 578 - Rimini RN",
+			"lat": "44.019765",
+			"long":"12.452812",
+			"tel": "0541 750113",
+			"opening": "Mon, Tue, Wed, Thu, Fri: 0900-1230, 1500-1930.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"farmaRN0036": {
+			"category": ["Farmacia"],
+			"name": "Farmacia Centrale Dott. Fabio Zecca",
+			"address": "Via Dati, 80 - Viserba RN",
+			"lat": "44.074267",
+			"long":"12.565613",
+			"tel": "0541 738138",
+			"opening": "Mon, Tue, Wed, Thu, Fri, Sat: 0900-1230, 1530-1900.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"farmaRN0037": {
+			"category": ["Farmacia"],
+			"name": "Farmacia Pieralisi Roberto",
+			"address": "Via Andrea Costa, 84 - Santarcangelo di Romagna RN",
+			"lat": "44.074267",
+			"long":"12.565613",
+			"tel": "0541 624513",
+			"opening": "Mon, Tue, Wed, Thu, Fri: 0830-1230, 1530-1930.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+
+                }
+	},
+	"metadata": {
+		"creator": "Working Group LTW 2011/2012",
+		"created": "2011-12-20",
+		"version": "1.1",
+		"source": "http://vitali.web.cs.unibo.it/TechWeb12/Formati",
+		"valid": "2011-12-31"
+	}
+}

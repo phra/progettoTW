@@ -1,0 +1,4 @@
+AddHandler mod_python .py
+PythonHandler aggrcsv
+AddDefaultCharset UTF-8
+PythonDebug On

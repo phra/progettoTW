@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE catalogo SYSTEM "http://vitali.web.cs.unibo.it/twiki/pub/TechWeb12/DTDs/catalogo.dtd">
+  <catalogo id="ltw1129" gruppo="indieCODE">
+      <aggregatori>
+               <aggregatore id="ltw1129-farmacie" title="Farmacie di Bologna" url="http://ltw1129.web.cs.unibo.it/farmacie">Dati riguardo le maggiori farmacie di Bologna città, con locazioni, indirizzi e orari di apertura.
+      </aggregatore>
+               <aggregatore id="ltw1129-super" title="Supermercati di Bologna" url="http://ltw1129.web.cs.unibo.it/super">Dati riguardo i supermercati di Bologna città, con locazioni, indirizzi e orari di apertura.
+      </aggregatore>
+               <aggregatore id="ltw1129-scuole" title="Scuole materne di Bologna" url="http://ltw1129.web.cs.unibo.it/scuole">Dati riguardo le scuole materne di Bologna città, con locazioni, indirizzi e orari di apertura.
+      </aggregatore>
+      <aggregatore id="ltw1129-poste" title="Poste di Bologna" url="http://ltw1129.web.cs.unibo.it/poste">Dati riguardo le scuole materne di Bologna città, con locazioni, indirizzi e orari di apertura.
+      </aggregatore>
+     </aggregatori>
+      <descrittori>
+          <descrittore url="http://ltw1129.web.cs.unibo.it/vicino-a" desc="Restituisce i luoghi più vicini al punto specificato">
+                <params>
+                   <param name="latitude" required="yes">La latitudine di partenza</param>
+                 <param name="longitude" required="yes">La longitudine di partenza</param>
+                  <param name="category" required="yes">La categoria di luogo da ricercare. Usare '*' se si vogliono considerare tutte le categorie.</param>
+                 <param name="max" required="no">Parametro opzionale, in cui specificare il massimo numero di risultati che si vuol ricevere in risposta.</param>
+                 <param name="distance" required="no">Parametro opzionale, in cui specificare la massima distanza in metri.</param>
+               </params>
+          </descrittore>
+    </descrittori>
+   </catalogo>

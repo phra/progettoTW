@@ -1,0 +1,193 @@
+{
+	"locations": {
+		"posteRN0001": {
+			"category": ["Poste"],
+			"name": "Poste Italiane Spa - Uff.Postale Rimini 009 Centralino ",
+			"address": "Via Euterpe, 9 - Rimini RN",
+			"lat": "44.043948",
+			"long":"12.567496",
+			"tel": "0541 760411",
+			"opening": "Mon, Tue, Wed, Thu, Fri, Sat: 0800-1830.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"posteRN0002": {
+			"category": ["Poste"],
+			"name": "Poste Italiane - Filiale Di Rimini - Ufficio Postale Di Miramar",
+			"address": "Viale Guglielmo Marconi, 113 - Rimini RN",
+			"lat": "44.02846",
+			"long":"12.622774",
+			"tel": "0541 470011 ",
+			"opening": "Mon, Tue, Wed, Thu, Fri, Mon: 0800-1330, Sat: 0800-1330.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"posteRN0003": {
+			"category": ["Poste"],
+			"name": "Poste Italiane Spa",
+			"address": "Via Alessandro Gambalunga, 40 - Rimini RN",
+			"lat": "44.06243",
+			"long":"12.56894",
+			"tel": "0541 58811",
+			"opening": "Mon, Tue, Wed, Thu, Fri, Sat: 0800-1830.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"posteRN0004": {
+			"category": ["Poste"],
+			"name": "Ufficio Postale",
+			"address": "Via Ennio Coletti, 19 - Rimini RN",
+			"lat": "44.061995",
+			"long":"12.564754",
+			"tel": "0541 24071",
+			"opening": "Tue, Wed, Fri, Mon: 0800-1330, Thu: 0800-1330 Sat: 0800-1330.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"posteRN0005": {
+			"category": ["Poste"],
+			"name": "Poste Italiane - Filiale Di Rimini - Ufficio Postale Di San Lor",
+			"address": "Via Montescudo, 349 - Rimini RN",
+			"lat": "44.004824",
+			"long":"12.571217",
+			"tel": "0541 730679",
+			"opening": "Tue, Thu, Fri, Mon: 0800-1330, Wed: 0800-1330 Sat: 0800-1330.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"posteRN0006": {
+			"category": ["Poste"],
+			"name": "Poste Italiane Spa - Filiale Di Rimini - Centralino",
+			"address": "Largo Giulio Cesare, 1 - Rimini RN",
+			"lat": "44.05702",
+			"long":"12.570711",
+			"tel": "0541 634211",
+			"opening": "Tue, Wed, Thu, Fri, Sat: 0800-1330.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"posteRN0007": {
+			"category": ["Poste"],
+			"name": "Ufficio Postale",
+			"address": "Largo Giulio Cesare, 1 - Rimini RN",
+			"lat": "44.057143",
+			"long":"12.570699",
+			"tel": "0",
+			"opening": "Mon, Tue, Wed, Thu, Fri, Sat: 0800-1830.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"posteRN0008": {
+			"category": ["Poste"],
+			"name": "Poste Italiane S.P.A. - Filiale Di Rimini-Rimini Succ.9",
+			"address": "Via Euterpe, 3 - Rimini RN",
+			"lat": "44.053988",
+			"long":"12.56778",
+			"tel": "0541 776100",
+			"opening": "Wed, Thu, Fri, Mon: 0800-1330, Tue: 0800-1330, Sat: 0800-1330.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"posteRN0009": {
+			"category": ["Poste"],
+			"name": "Poste Italiane Filiale Di Rimini - Rimini Succ.10",
+			"address": "Via Coriano, 58 - Rimini RN",
+			"lat": "44.036125",
+			"long":"12.580335",
+			"tel": "0541 382129",
+			"opening": "Mon, Tue, Wed, Thu, Fri, Mon:0800-1330, Sat: 0800-1330.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"posteRN0010": {
+			"category": ["Poste"],
+			"name": "Poste Italiane Filiale Di Rimini",
+			"address": "Viale Paolo Mantegazza, 2 - Rimini RN",
+			"lat": "44.070102",
+			"long":"12.577993",
+			"tel": "0541 54399",
+			"opening": "Mon, Tue, Wed, Thu, Fri, Sat: 0800-1830.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"posteRN0011": {
+			"category": ["Poste"],
+			"name": "Poste Italiane Filiale Di Rimini - Rimini Succ.8 Ufficio Postale Di Rimini",
+			"address": "Via Giacinto Gallina, 5 - Rimini RN",
+			"lat": "44.049371",
+			"long":"12.586714",
+			"tel": "0541 389059",
+			"opening": "Tue, Wed, Thu, Fri: 0800-1330, Sat: 0800-1330.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"posteRN0012": {
+			"category": ["Poste"],
+			"name": "Poste Italiane Filiale Di Rimini - Ufficio Postale Di Torre Pedrera",
+			"address": "Viale Nairobi, 20 - Rimini RN",
+			"lat": "44.106328",
+			"long":"12.512266",
+			"tel": "0541 720661",
+			"opening": "Mon, Tue, Wed, Thu, Fri, Mon: 0800-1330, Sat: 0800-1330.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"posteRN0013": {
+			"category": ["Poste"],
+			"name": "Ufficio Postale",
+			"address": "Piazza Marvelli, 4-5 - Rimini RN",
+			"lat": "44.063596",
+			"long":"12.585285",
+			"tel": "0",
+			"opening": "Mon, Tue, Wed, Thu, Fri, Sat: 0800-1830.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+
+		},
+		"posteRN0014": {
+			"category": ["Poste"],
+			"name": "Poste Italiane Filiale Di Rimini - Ufficio Postale Di Rimini 006",
+			"address": "Viale Tripoli, 4 - Rimini RN",
+			"lat": "44.036517",
+			"long":"12.580333",
+			"tel": "0541 390345",
+			"opening": "Tue, Wed, Thu, Fri, Sat: 0800-1330.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"posteRN0015": {
+			"category": ["Poste"],
+			"name": "Poste Italiane - Filiale Di Rimini - Ufficio Postale Di Viserbe",
+			"address": "Viale Silvio Cenci, 4/c - Rimini RN",
+			"lat": "44.095203",
+			"long":"12.526556",
+			"tel": "0541 722355",
+			"opening": "Tue, Wed, Thu, Fri, Wed: 0800-1330, Sat: 0800-1830.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"posteRN0016": {
+			"category": ["Poste"],
+			"name": "Poste Italiane Spa - Ufficio Postale Di Riccione Centro - Centralino",
+			"address": "Viale Filippo Corridoni, 13 - Riccione Rimini RN",
+			"lat": "44.00041",
+			"long":"12.65886",
+			"tel": "0541 473911",
+			"opening": "Mon, Tue, Wed, Thu, Fri, Tue: 0800-1330, Sat: 0800-1830.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"posteRN0017": {
+			"category": ["Poste"],
+			"name": "Poste Italiane - Sportelleria",
+			"address": "Viale Paolo Mantegazza, 2 - Rimini RN",
+			"lat": "44.068995",
+			"long":"12.567201",
+			"tel": "0541 54539",
+			"opening": "Mon, Tue, Wed, Thu, Fri, Sat: 0800-1830.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"posteRN0018": {
+			"category": ["Poste"],
+			"name": "Poste Italiane Filiale Di Rimini - Ufficio Postale Di Santa Giustina Di Rimi",
+			"address": "Via Emilia, 336 - Rimini RN",
+			"lat": "44.068361",
+			"long":"12.482903",
+			"tel": "0541 682006",
+			"opening": "Tue, Wed, Thu, Fri, Sat: 0800-1330.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+	        }
+
+	},
+	"metadata": {
+		"creator": "Working Group LTW 2011/2012",
+		"created": "2011-12-20",
+		"version": "1.1",
+		"source": "http://vitali.web.cs.unibo.it/TechWeb12/Formati",
+		"valid": "2011-12-31"
+	}
+}

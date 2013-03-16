@@ -1,0 +1,631 @@
+{
+	"locations": {
+		"sup0001": {
+			"category": ["Supermarket"], 
+			"name": "Plenty Market",
+			"address": "Via Farini, 30 - Bologna BO",
+			"lat": "44.491637",
+			"long":"11.348056",
+			"tel": "051 236113",
+			"opening": "Mon, Tue, Wed, Thu, Fri, Sat: 0900-2030. Sun: 0930-1400, 1630-1930.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"sup0002": {
+			"category": ["Supermarket"], 
+			"name": "Plenty Market",
+			"address": "Piazza Porta Castiglione, 14 - Bologna BO",
+			"lat": "44.484886",
+			"long":"11.348829",
+			"tel": "051 6449992",
+			"opening": "Mon, Tue, Wed, Thu, Sat: 0830-2030. Fri: 1200-2030. Sun: 0930-1400, 1630-1930.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"sup0003": {
+			"category": ["Supermarket"], 
+			"name": "Plenty Market",
+			"address": "Strada Maggiore, 59 - Bologna BO",
+			"lat": "44.490708",
+			"long":"11.355418",
+			"tel": "051 399790",
+			"opening": "Mon, Tue, Wed, Thu, Fri, Sat: 0900-2030. Sun: 1000-1400.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"sup0004": {
+			"category": ["Supermarket"], 
+			"name": "Plenty Market",
+			"address": "Via Monte Grappa, 11 - Bologna BO",
+			"lat": "44.495913",
+			"long":"11.33998",
+			"tel": "051 7459206",
+			"opening": "Mon, Tue, Wed, Thu, Fri, Sat: 0830-2030. Sun: 1000-1400.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"sup0005": {
+			"category": ["Supermarket"], 
+			"name": "Plenty Market",
+			"address": "Piazza dei Martiri, 5 - Bologna BO",
+			"lat": "44.501952",
+			"long":"11.339334",
+			"tel": "051 245799",
+			"opening": "Mon, Tue, Wed, Thu, Fri, Sat: 0830-2030. Sun: 0930-1400, 1630-1930.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"sup0006": {
+			"category": ["Supermarket"], 
+			"name": "Plenty Market",
+			"address": "Via Irnerio, 24 - Bologna BO",
+			"lat": "44.499685",
+			"long":"11.350914",
+			"tel": "051 4210066",
+			"opening": "Mon, Tue, Wed, Thu, Fri, Sat: 0900-2100. Sun: 0930-1400, 1630-1930.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"sup0007": {
+			"category": ["Supermarket"], 
+			"name": "Plenty Market",
+			"address": "Via 21 Aprile 1945, 8 - Bologna BO",
+			"lat": "44.491163",
+			"long":"11.320062",
+			"tel": "051 7173654",
+			"opening": "Mon, Tue, Wed, Thu, Fri, Sat: 0900-2100.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"sup0008": {
+			"category": ["Supermarket"], 
+			"name": "Plenty Market",
+			"address": "Via Tosarelli, 109 - Castenaso BO",
+			"lat": "44.503958",
+			"long":"11.454376",
+			"tel": "051 789143",
+			"opening": "Mon, Tue, Wed, Thu, Fri, Sat: 0800-2100.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"sup0009": {
+			"category": ["Supermarket"], 
+			"name": "Plenty Market",
+			"address": "Via S. Calindri, 90 - San Lazzaro di Savena BO",
+			"lat": "44.461116",
+			"long":"11.424135",
+			"tel": "051 6257433",
+			"opening": "Mon, Tue, Wed, Thu, Fri, Sat: 0800-2000.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"sup0010": {
+			"category": ["Supermarket"], 
+			"name": "Plenty Market",
+			"address": "Via San Vitale, 22/B - Budrio BO",
+			"lat": "0",
+			"long":"0",
+			"tel": "051 800986",
+			"opening": "Mon, Tue, Wed, Thu, Fri, Sat: 0830-1930.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"sup0011": {
+			"category": ["Supermarket"], 
+			"name": "Plenty Market",
+			"address": "Via Galliera Sud, 87/89 - San Pietro in Casale BO",
+			"lat": "44.68893 ",
+			"long":"11.397271",
+			"tel": "051 818010",
+			"opening": "Mon, Tue, Wed, Thu, Fri, Sat: 0830-2000.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"sup0012": {
+			"category": ["Supermarket"], 
+			"name": "Plenty Market",
+			"address": "Via Emilia, 210 - Imola BO",
+			"lat": "44.353653",
+			"long":"11.713672",
+			"tel": "0542 39142",
+			"opening": "Mon, Tue, Wed, Thu, Fri, Sat: 0830-2000. Sun: 0930-1330, 1630-1930.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"sup0013": {
+			"category": ["Supermarket"], 
+			"name": "Plenty Market EXPRESS",
+			"address": "Via Giuseppe Garibaldi, 1 - Bologna BO",
+			"lat": "44.490647",
+			"long":"11.343564",
+			"tel": "051 331700",
+			"opening": "Mon, Tue, Wed, Thu, Fri, Sat: 0900-2030. Sun: 1000-1400.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"sup0014": {
+			"category": ["Supermarket"], 
+			"name": "Plenty Market EXPRESS",
+			"address": "Via Guglielmo Oberdan, 24 - Bologna BO",
+			"lat": "44.496863",
+			"long":"11.345932",
+			"tel": "051 239753",
+			"opening": "Mon, Tue, Wed, Thu, Fri, Sat: 0900-2100. Sun: 1000-1400.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"sup0015": {
+			"category": ["Supermarket"], 
+			"name": "Plenty Market EXPRESS",
+			"address": "Via Massarenti, 2 - Bologna BO",
+			"lat": "44.494057",
+			"long":"11.357421",
+			"tel": "051 341826",
+			"opening": "Mon, Tue, Wed, Thu, Fri, Sat: 0900-2100.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"sup0016": {
+			"category": ["Supermarket"], 
+			"name": "Plenty Market EXPRESS",
+			"address": "Via Calori, 1 - Bologna BO",
+			"lat": "44.500477",
+			"long":"11.334048",
+			"tel": "051 6494036",
+			"opening": "Mon, Tue, Wed, Thu, Fri, Sat: 0900-2030. Sun: 0930-1330, 1630-1930.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"sup0017": {
+			"category": ["Supermarket"], 
+			"name": "Plenty Market EXPRESS",
+			"address": "Via Amaseo, 25 - Bologna BO",
+			"lat": "44.501864",
+			"long":"11.364544",
+			"tel": "051 7414327",
+			"opening": "Mon, Tue, Wed, Thu, Fri, Sat: 0900-2030.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"sup0018": {
+			"category": ["Supermarket"], 
+			"name": "PAM BELLARIA",
+			"address": "Via Bellaria, 47 - Bologna BO",
+			"lat": "44.476004",
+			"long":"11.387036",
+			"tel": "051/544759",
+			"opening": "Mon, Tue, Wed, Fri, Sat: 0800-2100. Thu: 0800-1300.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"sup0019": {
+			"category": ["Supermarket"], 
+			"name": "PAM CORTICELLA",
+			"address": "Via Di Corticella, 3 - Bologna BO",
+			"lat": "44.552458",
+			"long":"11.346763",
+			"tel": "051/356403",
+			"opening": "Mon, Tue, Wed, Fri, Sat: 0800-2100. Thu: 0800-1300.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"sup0020": {
+			"category": ["Supermarket"], 
+			"name": "PAM MARCONI",
+			"address": "Via Guglielmo Marconi, 28 - Bologna BO",
+			"lat": "44.498893",
+			"long":"11.33866",
+			"tel": "051/520404",
+			"opening": "Mon, Tue, Wed, Thu, Fri, Sat: 0730-2030. Sun: 0900-1900.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"sup0021": {
+			"category": ["Supermarket"], 
+			"name": "Minimercato COOP DUC",
+			"address": "Piazza Liber Paradisus 3 - Bologna BO",
+			"lat": "44.510478",
+			"long":"11.340164",
+			"tel": "0",
+			"opening": "Mon, Tue, Wed, Thu, Fri: 0800-1930. Sat: 0800-1400.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"sup0022": {
+			"category": ["Supermarket"], 
+			"name": "Minimercato COOP Due Torri",
+			"address": "via San Vitale 4 - Bologna BO",
+			"lat": "44.494593",
+			"long":"11.347581",
+			"tel": "051 232243",
+			"opening": "Mon, Tue, Wed, Thu, Fri, Sat: 0800-2030. Sun: 0900-1330.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"sup0023": {
+			"category": ["Supermarket"], 
+			"name": "Minimercato COOP Gallia",
+			"address": "via Savigno 3 - Bologna BO",
+			"lat": "44.469286",
+			"long":"11.383067",
+			"tel": "051 444003",
+			"opening": "Mon, Tue, Wed, Fri, Sat: 0800-2000. Thu: 0800-1330.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"sup0024": {
+			"category": ["Supermarket"], 
+			"name": "Minimercato COOP Via dei Lamponi",
+			"address": "via dei Lamponi 5 - Bologna BO",
+			"lat": "44.474357",
+			"long":"11.369936",
+			"tel": "051 6231118",
+			"opening": "Mon, Tue, Wed, Fri, Sat: 0830-2000. Thu: 0800-1330.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"sup0025": {
+			"category": ["Supermarket"], 
+			"name": "Minimercato COOP Via del Pratello",
+			"address": "Via del Pratello 98 - Bologna BO",
+			"lat": "44.495457",
+			"long":"11.329253",
+			"tel": "051 524608",
+			"opening": "Mon, Tue, Wed, Thu, Fri, Sat: 0800-2000.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"sup0026": {
+			"category": ["Supermarket"], 
+			"name": "Minimercato COOP Via Mengoli",
+			"address": "via Mengoli 34 - Bologna BO",
+			"lat": "44.490382",
+			"long":"11.37212",
+			"tel": "051 6360493",
+			"opening": "Mon, Tue, Wed, Fri, Sat: 0800-2000. Thu: 0800-1330.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"sup0027": {
+			"category": ["Supermarket"], 
+			"name": "Minimercato COOP Via Ugo Bassi",
+			"address": "Via Nazario Sauro 4 - Bologna BO",
+			"lat": "44.496024",
+			"long":"11.338974",
+			"tel": "051 6486245",
+			"opening": "Mon, Tue, Wed, Thu, Fri, Sat: 0800-2030. Sun: 0930-1330.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"sup0028": {
+			"category": ["Supermarket"], 
+			"name": "Supermercato COOP Andrea Costa",
+			"address": "via Andrea Costa, 160 - Bologna BO",
+			"lat": "44.493806",
+			"long":"11.311814",
+			"tel": "051 6154939",
+			"opening": "Tue, Wed, Thu, Fri: 0800-2030. Mon: 1400-2000. Sat: 0800-2000.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"sup0029": {
+			"category": ["Supermarket"], 
+			"name": "Supermercato COOP Barca",
+			"address": "Via della Barca, 57 - Bologna BO",
+			"lat": "44.496308",
+			"long":"11.2897",
+			"tel": "051 562002",
+			"opening": "Tue, Wed, Thu, Fri: 0800-2000. Mon: 1430-2000. Sat: 0800-1930.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"sup0030": {
+			"category": ["Supermarket"], 
+			"name": "Supermercato COOP Dagnini",
+			"address": "Via Dagnini, 32 - Bologna BO",
+			"lat": "44.480341",
+			"long":"11.370032",
+			"tel": "516056559",
+			"opening": "Mon, Tue, Thu, Fri: 0800-2000. Wed: 0800-1300. Sat: 0800-1930.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"sup0031": {
+			"category": ["Supermarket"], 
+			"name": "Supermercato COOP Officine Minganti",
+			"address": "via della Liberazione 11 - Bologna BO",
+			"lat": "44.511279",
+			"long":"11.352105",
+			"tel": "051 6313370",
+			"opening": "Tue, Wed, Thu, Fri, Sat: 0900-2100. Mon: 1200-2100.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"sup0032": {
+			"category": ["Supermarket"], 
+			"name": "Supermercato COOP Piazza Martiri",
+			"address": "Via Montebello, 2/3 - Bologna BO",
+			"lat": "44.500928",
+			"long":"11.341877",
+			"tel": "051 249469",
+			"opening": "Mon, Tue, Wed, Thu, Fri: 0800-2000. Sat: 0800-1930.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"sup0033": {
+			"category": ["Supermarket"], 
+			"name": "Supermercato COOP Saffi",
+			"address": "Via Francesco Baracca, 14 - Bologna BO",
+			"lat": "44.502158",
+			"long":"11.315506",
+			"tel": "051 380064",
+			"opening": "Mon, Tue, Thu, Fri: 0800-2000. Wed: 0800-1330. Sat: 0800-1930.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"sup0034": {
+			"category": ["Supermarket"], 
+			"name": "Supermercato COOP San Donato",
+			"address": "Via San Donato, 87 - Bologna BO",
+			"lat": "44.505751",
+			"long":"11.372429",
+			"tel": "051 6334416",
+			"opening": "Mon, Tue, Thu, Fri: 0800-2000. Wed: 0800-1330. Sat: 0800-1930.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"sup0035": {
+			"category": ["Supermarket"], 
+			"name": "Supermercato COOP San Ruffillo",
+			"address": "via Ponchielli, 23 - Bologna BO",
+			"lat": "44.466146",
+			"long":"11.373505",
+			"tel": "051 481474",
+			"opening": "Tue, Wed, Thu, Fri, Sat: 0800-2100. Mon: 1300-2100.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"sup0036": {
+			"category": ["Supermarket"], 
+			"name": "Supermercato COOP San Vitale",
+			"address": "Via Massarenti, 102 - Bologna BO",
+			"lat": "44.492323",
+			"long":"11.364156",
+			"tel": "051 342723",
+			"opening": "Tue, Wed, Thu, Fri, Sat: 0800-2000. Mon: 1430-2000.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"sup0037": {
+			"category": ["Supermarket"], 
+			"name": "Supermercato COOP Viale Carnacini",
+			"address": "viale Carnacini, 37 - Bologna BO",
+			"lat": "44.513576",
+			"long":"11.402059",
+			"tel": "051 6335086",
+			"opening": "Tue, Wed, Thu, Fri, Sat: 0830-2100. Mon: 1300-2100.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"sup0038": {
+			"category": ["Supermarket"], 
+			"name": "Supermercato COOP Viale della Repubblica",
+			"address": "via Casciarolo 3 - Bologna BO",
+			"lat": "44.506156",
+			"long":"11.360072",
+			"tel": "051 502187",
+			"opening": "Tue, Wed, Thu, Fri: 0800-2030. Mon: 1200-2000. Sat: 0800-2000.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"sup0039": {
+			"category": ["Supermarket"], 
+			"name": "Ipermercato COOP Centro Borgo",
+			"address": "Via Marco Emilio Lepido, 184 - Bologna BO",
+			"lat": "44.520618",
+			"long":"11.266071",
+			"tel": "051 4131011",
+			"opening": "Tue, Wed, Thu, Fri: 0830-2130. Mon: 1200-2130. Sat: 0830-2100.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"sup0040": {
+			"category": ["Supermarket"], 
+			"name": "Ipermercato COOP Centro Lame",
+			"address": "Via Beverara, 50 - Bologna BO",
+			"lat": "44.51437 ",
+			"long":"11.330923",
+			"tel": "051 6359111",
+			"opening": "Tue, Wed, Thu, Fri: 0830-2130. Mon: 1200-2130. Sat: 0830-2100.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"sup0041": {
+			"category": ["Supermarket"], 
+			"name": "Ipermercato COOP Centro Nova",
+			"address": "Via Villanova, 29 - Castenaso BO",
+			"lat": "44.491966",
+			"long":"11.425446",
+			"tel": "051 5067011",
+			"opening": "Tue, Wed, Thu, Fri: 0830-2130. Mon: 1200-2130. Sat: 0830-2100.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"sup0042": {
+			"category": ["Supermarket"], 
+			"name": "CONAD",
+			"address": "Via De Nicola 1 - Bologna BO",
+			"lat": "44.50359 ",
+			"long":"11.277442",
+			"tel": "051/561200",
+			"opening": "Mon, Tue, Wed, Thu, Fri, Sat: 0800-1930.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"sup0043": {
+			"category": ["Supermarket"], 
+			"name": "CONAD",
+			"address": "Viale Abramo Lincoln 5 - Bologna BO",
+			"lat": "44.481791",
+			"long":"11.390335",
+			"tel": "051/541052",
+			"opening": "Mon, Tue, Wed, Fri, Sat: 0800-2000. Thu: 0800-1300.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"sup0044": {
+			"category": ["Supermarket"], 
+			"name": "CONAD",
+			"address": "Viale Felsina 31 - Bologna BO",
+			"lat": "44.487358",
+			"long":"11.377794",
+			"tel": "051/543773",
+			"opening": "Mon, Tue, Wed, Fri, Sat: 0745-1930. Thu: 0745-1300.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"sup0045": {
+			"category": ["Supermarket"], 
+			"name": "CONAD",
+			"address": "Via Lombardia 17/2 - Bologna BO",
+			"lat": "44.477163",
+			"long":"11.384121",
+			"tel": "051/541207",
+			"opening": "Mon, Tue, Wed, Thu, Fri, Sat: 0800-1930.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"sup0046": {
+			"category": ["Supermarket"], 
+			"name": "CONAD",
+			"address": "Via Sant'Isaia 67-2 - Bologna BO",
+			"lat": "44.49438 ",
+			"long":"11.330186",
+			"tel": "051/6492194",
+			"opening": "Mon, Tue, Wed, Thu, Fri, Sat: 0815-2000.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"sup0047": {
+			"category": ["Supermarket"], 
+			"name": "CONAD",
+			"address": "Via Luigi Pirandello 18 - Bologna BO",
+			"lat": "44.511685",
+			"long":"11.389748",
+			"tel": "051/501127",
+			"opening": "Mon, Tue, Wed, Thu, Fri, Sat: 0730-1930.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"sup0048": {
+			"category": ["Supermarket"], 
+			"name": "CONAD",
+			"address": "Viale Antonio Silvani 3/7 - Bologna BO",
+			"lat": "44.499747",
+			"long":"11.327904",
+			"tel": "051/6494577",
+			"opening": "Mon, Tue, Wed, Thu, Fri, Sat: 0815-2000.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"sup0049": {
+			"category": ["Supermarket"], 
+			"name": "CONAD",
+			"address": "Via Angelo Finelli 8 - Bologna BO",
+			"lat": "44.501592",
+			"long":"11.350069",
+			"tel": "051/241518",
+			"opening": "Mon, Tue, Wed, Thu, Fri, Sat: 0815-1945.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"sup0050": {
+			"category": ["Supermarket"], 
+			"name": "CONAD",
+			"address": "Via Della Ca' Bianca 5 - Bologna BO",
+			"lat": "44.523877",
+			"long":"11.320876",
+			"tel": "051/6341703",
+			"opening": "Mon, Tue, Wed, Thu, Fri, Sat: 0800-1930.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"sup0051": {
+			"category": ["Supermarket"], 
+			"name": "CONAD",
+			"address": "Via Speranza 52 - Bologna BO",
+			"lat": "44.50838 ",
+			"long":"11.297693",
+			"tel": "051/6190116",
+			"opening": "Mon, Tue, Wed, Thu, Fri, Sat: 0800-1930.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"sup0052": {
+			"category": ["Supermarket"], 
+			"name": "CONAD",
+			"address": "Via Emilia Levante 6-5 - Bologna BO",
+			"lat": "44.484063",
+			"long":"11.373465",
+			"tel": "051/540300",
+			"opening": "Mon, Tue, Thu, Fri, Sat: 0800-2000. Wed: 0800-1400.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"sup0053": {
+			"category": ["Supermarket"], 
+			"name": "E. LeClerc CONAD",
+			"address": "Via Larga 10 - Bologna BO",
+			"lat": "44.497877",
+			"long":"11.393373",
+			"tel": "051/6003811",
+			"opening": "Tue, Wed, Thu, Fri: 0830-2130. Mon: 1200-2100. Sat: 0830-2100.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"sup0054": {
+			"category": ["Supermarket"], 
+			"name": "CONAD",
+			"address": "Via San Vitale 1 - Bologna BO",
+			"lat": "44.49446 ",
+			"long":"11.347176",
+			"tel": "051/561705",
+			"opening": "Mon, Tue, Thu, Fri: 0800-1300, 1600-1930. Wed: 0800-1300. Sat: 0800-1930.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"sup0055": {
+			"category": ["Supermarket"], 
+			"name": "Esselunga Santa Viola",
+			"address": "Via Emilia Ponente, 72 - Bologna, BO",
+			"lat": "44.508476",
+			"long":"11.29464",
+			"tel": "051 310781",
+			"opening": "Tue, Wed, Thu, Fri, Sat: 0800-2100. Mon: 1200-2100.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"sup0056": {
+			"category": ["Supermarket"], 
+			"name": "Esselunga San Vitale",
+			"address": "Via Guelfa - Bologna, BO",
+			"lat": "44.492147",
+			"long":"11.384687",
+			"tel": "051 6010727",
+			"opening": "Tue, Wed, Thu, Fri, Sat: 0800-2100. Mon: 1200-2100.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"sup0057": {
+			"category": ["Supermarket"], 
+			"name": "Esselunga Casalecchio Di Reno",
+			"address": "Piazza Degli Etruschi, 2 - Casalecchio Di Reno, BO",
+			"lat": "44.482447",
+			"long":"11.27078",
+			"tel": "051 6132544",
+			"opening": "Tue, Wed, Thu, Fri, Sat: 0800-2100. Mon: 1200-2100.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"sup0058": {
+			"category": ["Supermarket"], 
+			"name": "Natura Sì Bologna",
+			"address": "Via Montefiorino, 2/D 40134 Bologna",
+			"lat": "44.495049",
+			"long":"11.314387",
+			"tel": "051/6144011",
+			"opening": "Tue, Wed, Thu, Sat: 0900-1930. Mon: 1400-2000. Fri: 0900-2000.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"sup0059": {
+			"category": ["Supermarket"], 
+			"name": "Natura Sì Bologna",
+			"address": "Via Po, 3 40139 Bologna",
+			"lat": "44.479354",
+			"long":"11.381041",
+			"tel": "051/6241205",
+			"opening": "Tue, Wed, Thu, Sat: 0900-1930. Mon: 1400-2000. Fri: 0900-2000.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"sup0060": {
+			"category": ["Supermarket"], 
+			"name": "Natura Sì Bologna",
+			"address": "Viale Della Repubblica, 23/Ii - Zona Fiera - 40127 Bologna",
+			"lat": "44.518424",
+			"long":"11.394425",
+			"tel": "051/503902",
+			"opening": "Tue, Wed, Thu, Sat: 0900-1930. Mon: 1400-2000. Fri: 0900-2000.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"sup0061": {
+			"category": ["Supermarket"], 
+			"name": "Natura Sì San Giovanni In Persiceto",
+			"address": "Via Bologna, 15/B 400San-17 Giovanni In Persiceto",
+			"lat": "44.63356 ",
+			"long":"11.191114",
+			"tel": "051 825832",
+			"opening": "Tue, Wed, Thu, Fri, Sat: 0900-1300, 1600-2000. Mon: 1600-2000.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		},
+		"sup0062": {
+			"category": ["Supermarket"], 
+			"name": "Natura Sì Casalecchio Di Reno",
+			"address": "Via Porrettana, 388 Rotonda Biagi 40033 Casalecchio di Reno",
+			"lat": "44.472382",
+			"long":"11.637416",
+			"tel": "051 0494944",
+			"opening": "Tue, Wed, Thu, Sat: 0900-1930. Mon: 1400-2000. Fri: 0900-2000.",
+			"closing": "01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: ."
+		}
+	}, 
+	"metadata": {
+		"creator": "Working Group LTW 2011/2012",
+		"created": "2011-12-20",
+		"version": "1.1",
+		"source": "http://vitali.web.cs.unibo.it/TechWeb12/Formati",
+		"valid": "2011-12-31"
+	}
+}
