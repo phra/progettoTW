@@ -3,7 +3,7 @@
 #
 #       aggregatoreJSON v1.0
 #       
-#       Copyright 2011 indieCODE <ltw1129@web.cs.unibo.it>
+#       Copyright 2011 indieCODE <fattanza.no-ip.org/progettoTW>
 #       
 #       This program is free software; you can redistribute it and/or modify
 #       it under the terms of the GNU General Public License as published by
@@ -46,7 +46,7 @@ def handler(req):
 
 	#req.write("let's try!\r\n")
 	try:
-		path = '/home/web/ltw1129/cgi-bin/aggregatore/csv/scuolematerneBO2011.csv'
+		path = '/var/www/progettoTW/cgi-bin/aggregatore/csv/scuolematerneBO2011.csv'
 		enc = 'utf-8'
 		fd = codecs.open(path,'r',enc)
 		attrs = ["id","category","name","address","lat","long","subcategory","note","opening","closing","creator","created","valid","version","source"]

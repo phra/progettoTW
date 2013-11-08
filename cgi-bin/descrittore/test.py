@@ -7,7 +7,7 @@ import json, math, csv, tempfile, codecs
 
 def index(req):
 	headers = { 'Accept' : 'application/json' }
-	reqq = U.Request('http://ltw1129.web.cs.unibo.it/cgi-bin/descrittore/vicinoa.py?lat=44.500456&long=11.277643&max=10&distance=5000', headers= headers)
+	reqq = U.Request('http://fattanza.no-ip.org/progettoTW/cgi-bin/descrittore/vicinoa.py?lat=44.500456&long=11.277643&max=10&distance=5000', headers= headers)
 
 	try:
 		r = U.urlopen(reqq)

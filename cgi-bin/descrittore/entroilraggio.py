@@ -106,7 +106,7 @@ def handler(req):
 	RT = 6372795.477598
 	radlatA = latA * (math.pi / 180.0)
 	radlonA = lonA * (math.pi / 180.0)
-	hosts = ['http://ltw1129.web.cs.unibo.it/aggregatore/json/aggrjson.py','http://ltw1129.web.cs.unibo.it/aggregatore/xml/aggrxml.py']
+	hosts = ['http://fattanza.no-ip.org/progettoTW/aggregatore/json/aggrjson.py','http://fattanza.no-ip.org/progettoTW/aggregatore/xml/aggrxml.py']
 	
 	for host in hosts:
 		reqq = urllib2.Request(host)

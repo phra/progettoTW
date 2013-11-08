@@ -3,7 +3,7 @@
 #
 #       aggregatoreRDF v1.0
 #       
-#       Copyright 2011 indieCODE <ltw1129@web.cs.unibo.it>
+#       Copyright 2011 indieCODE <fattanza.no-ip.org/progettoTW>
 #       
 #       This program is free software; you can redistribute it and/or modify
 #       it under the terms of the GNU General Public License as published by
@@ -22,7 +22,7 @@
 #    
 
 import sys
-sys.path.append('/home/web/ltw1129/cgi-bin/aggregatore/rdf/')
+sys.path.append('/var/www/progettoTW/cgi-bin/aggregatore/rdf/')
 from mod_python import apache as A, util
 from encoding import smart_str
 import codecs, rdflib, rdfextras
@@ -77,7 +77,7 @@ def handler(req):
 
 	#req.write("let's try!\r\n")
 	try:
-		path = '/home/web/ltw1129/cgi-bin/aggregatore/rdf/posteBO2011.ttl'
+		path = '/var/www/progettoTW/cgi-bin/aggregatore/rdf/posteBO2011.ttl'
 		enc = 'utf-8'
 		fd = codecs.open(path,'r',enc)
 		#fd.close()
@@ -126,7 +126,7 @@ def handler(req):
 			req.status = A.HTTP_NOT_ACCEPTABLE
 			req.write('406: NOT ACCEPTABLE\r\n')
 			req.write('parametri insufficienti.\r\n')
-			req.write('i parametri sono: %s %s %s\r\n\r\nesempio: http://ltw1129.web.cs.unibo.it/cgi-bin/aggregatore/rdf/aggrrdf.py?key=name&comp=contains&value=5' % (KEY, COMP, VALUE))
+			req.write('i parametri sono: %s %s %s\r\n\r\nesempio: http://fattanza.no-ip.org/progettoTW/cgi-bin/aggregatore/rdf/aggrrdf.py?key=name&comp=contains&value=5' % (KEY, COMP, VALUE))
 			raise A.SERVER_RETURN, A.DONE
 		if what.args[0] == 'foo':
 			req.content_type = 'text/turtle'

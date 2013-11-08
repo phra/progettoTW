@@ -45,7 +45,7 @@ def handler(req):
 
 	#req.write("let's try!\r\n")
 	try:
-		path = '/home/web/ltw1129/cgi-bin/aggregatore/json/farmaRN/farmaRN.json'
+		path = '/var/www/progettoTW/cgi-bin/aggregatore/json/farmaRN/farmaRN.json'
 		enc = 'utf-8'
 		fd = codecs.open(path,'r',enc)
 		file = fd.read()

@@ -1,7 +1,7 @@
 /*
  *      mio.js
  *
- *      Copyright 2012 indieCODE <ltw1129@web.cs.unibo.it>
+ *      Copyright 2012 indieCODE <fattanza.no-ip.org/progettoTW>
  *
  *      This program is free software; you can redistribute it and/or modify
  *      it under the terms of the GNU General Public License as published by
@@ -339,7 +339,7 @@ function descrizione(data,mark,aggr,id) {
 	for (i=10;i<60;i++) minuti[i] = i;
 	var data2 = giorni[date.getDay()] + ': ' + ore[date.getHours()] + minuti[date.getMinutes()] + '-' + ore[date.getHours() + 1] + '30.';
 	var url = 'http://ltw1135.web.cs.unibo.it/aprira/params/' + data + '/' + data2;
-	var url2 = 'http://ltw1129.web.cs.unibo.it/descrizione/' + aggr + '/params/' + id;
+	var url2 = 'http://fattanza.no-ip.org/progettoTW/descrizione/' + aggr + '/params/' + id;
 	$.ajax({ //descrittore 'aprirà' acquistato da eggs and beacon
 		type: 'GET',
 		url: url,
@@ -411,16 +411,16 @@ function vicinoa(lat,long,aggr,max,distance){
 
 	var url = '';
 	if (max == '' || distance == '') {
-	url = 'http://ltw1129.web.cs.unibo.it/vicinoa/' + aggr + '/params/' + lat + '/'+ long;
+	url = 'http://fattanza.no-ip.org/progettoTW/vicinoa/' + aggr + '/params/' + lat + '/'+ long;
 	}
 	else if (max == '') {
-	url = 'http://ltw1129.web.cs.unibo.it/vicinoa/' + aggr + '/params/' + lat + '/'+ long + '/50/' + distance;
+	url = 'http://fattanza.no-ip.org/progettoTW/vicinoa/' + aggr + '/params/' + lat + '/'+ long + '/50/' + distance;
 	}
 	else if (distance == '') {
-	url = 'http://ltw1129.web.cs.unibo.it/vicinoa/' + aggr + '/params/' + lat + '/'+ long + '/' + max;
+	url = 'http://fattanza.no-ip.org/progettoTW/vicinoa/' + aggr + '/params/' + lat + '/'+ long + '/' + max;
 	}
 	else {
-	url = 'http://ltw1129.web.cs.unibo.it/vicinoa/' + aggr + '/params/' + lat + '/'+ long + '/' + max + '/' + distance;
+	url = 'http://fattanza.no-ip.org/progettoTW/vicinoa/' + aggr + '/params/' + lat + '/'+ long + '/' + max + '/' + distance;
 	}
 
 	$.getJSON(url, function(){

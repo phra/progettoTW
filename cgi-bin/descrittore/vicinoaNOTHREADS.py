@@ -21,7 +21,7 @@
 #  MA 02110-1301, USA.
 #
 import sys
-sys.path.append('/home/web/ltw1129/cgi-bin/descrittore/')
+sys.path.append('/var/www/progettoTW/cgi-bin/descrittore/')
 from mod_python import apache as A, util
 from xml.dom.minidom import parse, parseString
 from encoding import smart_str
@@ -135,7 +135,7 @@ def index(req):
 		req.status = A.HTTP_NOT_ACCEPTABLE
 		req.write('406: NOT ACCEPTABLE\r\n')
 		req.write('parametri errati.')
-		req.write('i parametri sono: lat: %s, long: %s[, max: %s, distance: %s]\r\nex: http://ltw1129.web.cs.unibo.it/vicinoa/ltw1129-farmacie/params/44.500456/11.277643/10/5000\r\n' % (smart_str(parms.getfirst('lat')), smart_str(parms.getfirst('long')), smart_str(parms.getfirst('max')), smart_str(parms.getfirst('distance'))))
+		req.write('i parametri sono: lat: %s, long: %s[, max: %s, distance: %s]\r\nex: http://fattanza.no-ip.org/progettoTW/vicinoa/ltw1129-farmacie/params/44.500456/11.277643/10/5000\r\n' % (smart_str(parms.getfirst('lat')), smart_str(parms.getfirst('long')), smart_str(parms.getfirst('max')), smart_str(parms.getfirst('distance'))))
 		raise A.SERVER_RETURN, A.DONE
 	#req.write(AGGR)
 	listout = []

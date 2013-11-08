@@ -2,17 +2,17 @@
 <!DOCTYPE catalogo SYSTEM "http://vitali.web.cs.unibo.it/twiki/pub/TechWeb12/DTDs/catalogo.dtd">
   <catalogo id="ltw1129" gruppo="indieCODE">
       <aggregatori>
-               <aggregatore id="ltw1129-farmacie" title="Farmacie di Bologna" url="http://ltw1129.web.cs.unibo.it/farmacie">Dati riguardo le maggiori farmacie di Bologna città, con locazioni, indirizzi e orari di apertura.
+               <aggregatore id="ltw1129-farmacie" title="Farmacie di Bologna" url="http://fattanza.no-ip.org/progettoTW/farmacie">Dati riguardo le maggiori farmacie di Bologna città, con locazioni, indirizzi e orari di apertura.
       </aggregatore>
-               <aggregatore id="ltw1129-super" title="Supermercati di Bologna" url="http://ltw1129.web.cs.unibo.it/super">Dati riguardo i supermercati di Bologna città, con locazioni, indirizzi e orari di apertura.
+               <aggregatore id="ltw1129-super" title="Supermercati di Bologna" url="http://fattanza.no-ip.org/progettoTW/super">Dati riguardo i supermercati di Bologna città, con locazioni, indirizzi e orari di apertura.
       </aggregatore>
-               <aggregatore id="ltw1129-scuole" title="Scuole materne di Bologna" url="http://ltw1129.web.cs.unibo.it/scuole">Dati riguardo le scuole materne di Bologna città, con locazioni, indirizzi e orari di apertura.
+               <aggregatore id="ltw1129-scuole" title="Scuole materne di Bologna" url="http://fattanza.no-ip.org/progettoTW/scuole">Dati riguardo le scuole materne di Bologna città, con locazioni, indirizzi e orari di apertura.
       </aggregatore>
-      <aggregatore id="ltw1129-poste" title="Poste di Bologna" url="http://ltw1129.web.cs.unibo.it/poste">Dati riguardo le scuole materne di Bologna città, con locazioni, indirizzi e orari di apertura.
+      <aggregatore id="ltw1129-poste" title="Poste di Bologna" url="http://fattanza.no-ip.org/progettoTW/poste">Dati riguardo le scuole materne di Bologna città, con locazioni, indirizzi e orari di apertura.
       </aggregatore>
      </aggregatori>
       <descrittori>
-          <descrittore url="http://ltw1129.web.cs.unibo.it/vicino-a" desc="Restituisce i luoghi più vicini al punto specificato">
+          <descrittore url="http://fattanza.no-ip.org/progettoTW/vicino-a" desc="Restituisce i luoghi più vicini al punto specificato">
                 <params>
                    <param name="latitude" required="yes">La latitudine di partenza</param>
                  <param name="longitude" required="yes">La longitudine di partenza</param>

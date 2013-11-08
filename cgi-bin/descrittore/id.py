@@ -3,7 +3,7 @@
 #
 #  id.py
 #
-#  Copyright 2011 indieCODE <ltw1129@web.cs.unibo.it>
+#  Copyright 2011 indieCODE <fattanza.no-ip.org/progettoTW>
 #
 #  This program is free software; you can redistribute it and/or modify
 #  it under the terms of the GNU General Public License as published by
@@ -21,7 +21,7 @@
 #  MA 02110-1301, USA.
 #
 import sys
-sys.path.append('/home/web/ltw1129/cgi-bin/descrittore/')
+sys.path.append('/var/www/progettoTW/cgi-bin/descrittore/')
 from encoding import smart_str
 from mod_python import apache as A, util
 from xml.dom.minidom import parse, parseString
