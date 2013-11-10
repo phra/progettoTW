@@ -57,6 +57,9 @@ RewriteRule ^entroilraggio/(.*)/params/(.*)/(.*)/(.*)$ cgi-bin/descrittore/vicin
 RewriteRule ^distanza/(.*)/(.*)/(.*)/(.*)$ cgi-bin/descrittore/distanza.py?lat1=$1&long1=$2&lat2=$3&long2=$4
 RewriteRule ^descrizione/(.*)/params/(.*)$ cgi-bin/descrittore/id.py?aggr=$1&id=$2
 
+RewriteRule ^wifi$ data/iperbolewireless.kml
+RewriteRule ^colonnine$ data/colonnine_elettriche.kml
+
 RewriteRule ^static/(.*) html/static/$1
 RewriteRule ^images/(.*) html/images/$1
 RewriteRule ^$ html/
