@@ -1,5 +1,6 @@
 RewriteEngine on
 RewriteRule ^catalogo$ data/catalogo.xml
+RewriteRule ^metacatalogo$ data/metacatalogo.xml
 
 RewriteRule ^farmacie/([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)/(.*) /cgi-bin/aggregatore/xml/aggrxml.py?key=$1&comp=$2&value=$3
 RewriteRule ^farmacie/([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+) cgi-bin/aggregatore/xml/aggrxml.py?key=$1&comp=$2
