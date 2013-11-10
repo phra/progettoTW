@@ -8,9 +8,17 @@
       </aggregatore>
                <aggregatore id="ltw1129-scuole" title="Scuole materne di Bologna" url="http://fattanza.no-ip.org/progettoTW/scuole">Dati riguardo le scuole materne di Bologna città, con locazioni, indirizzi e orari di apertura.
       </aggregatore>
-      <aggregatore id="ltw1129-poste" title="Poste di Bologna" url="http://fattanza.no-ip.org/progettoTW/poste">Dati riguardo le scuole materne di Bologna città, con locazioni, indirizzi e orari di apertura.
+      <aggregatore id="ltw1129-poste" title="Poste di Bologna" url="http://fattanza.no-ip.org/progettoTW/poste">Dati riguardo le poste di Bologna città, con locazioni, indirizzi e orari di apertura.
       </aggregatore>
-     </aggregatori>
+ <aggregatore id="ltw1129-postern" title="Poste di Rimini" url="http://fattanza.no-ip.org/progettoTW/postern">Dati riguardo le poste di Rimini, con locazioni, indirizzi e orari di apertura.
+      </aggregatore>
+<aggregatore id="ltw1129-scuolern" title="Scuole di Rimini" url="http://fattanza.no-ip.org/progettoTW/scuolern">Dati riguardo le scuole di Rimini, con locazioni, indirizzi e orari di apertura.
+      </aggregatore>
+<aggregatore id="ltw1129-superrn" title="Supermercati di Rimini" url="http://fattanza.no-ip.org/progettoTW/superrn">Dati riguardo i supermercati di Rimini città, con locazioni, indirizzi e orari di apertura.
+      </aggregatore>
+<aggregatore id="ltw1129-farmaciern" title="Farmacie di Rimini" url="http://fattanza.no-ip.org/progettoTW/farmaciern">Dati riguardo le farmacie di Rimini città, con locazioni, indirizzi e orari di apertura.
+      </aggregatore>
+    </aggregatori>
       <descrittori>
           <descrittore url="http://fattanza.no-ip.org/progettoTW/vicino-a" desc="Restituisce i luoghi più vicini al punto specificato">
                 <params>

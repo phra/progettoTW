@@ -295,7 +295,7 @@ def index(req):
 		req.write('i parametri sono: lat: %s, long: %s[, max: %s, distance: %s]\r\nex: http://fattanza.no-ip.org/progettoTW/vicinoa/ltw1130-farmacie/params/44.500456/11.277643/10/5000\r\n' % (smart_str(parms.getfirst('lat')), smart_str(parms.getfirst('long')), smart_str(parms.getfirst('max')), smart_str(parms.getfirst('distance'))))
 		raise A.SERVER_RETURN, A.DONE
 	hosts = []
-	host = 'http://vitali.web.cs.unibo.it/twiki/pub/TechWeb12/MetaCatalogo1112/metaCatalogo.xml'
+	host = 'http://fattanza.no-ip.org/progettoTW/metacatalogo'
 	reqq = urllib2.Request(host)
 	reqq.add_header('Accept', 'application/xml')
 	try:

@@ -318,7 +318,7 @@ def index(req):
 	#req.write(AGGR)
 	dictout = {}
 	hosts = []
-	host = 'http://vitali.web.cs.unibo.it/twiki/pub/TechWeb12/MetaCatalogo1112/metaCatalogo.xml'
+	host = 'http://fattanza.no-ip.org/progettoTW/metacatalogo'
 	reqq = urllib2.Request(host)
 	reqq.add_header('Accept', 'application/xml')
 	try:
