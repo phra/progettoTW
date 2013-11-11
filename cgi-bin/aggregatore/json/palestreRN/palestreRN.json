@@ -52,7 +52,7 @@
 		},
 		"palestreRN0006": {
 			"category": ["Palestra"],
-			"name": "Futura Centro Danza & Fitness",
+			"name": "Futura Centro Danza and Fitness",
 			"address": "Via Giovanni Beltrame, 2 - Rimini RN",
 			"lat": "44.057305",
 			"long":"12.552645",
@@ -72,7 +72,7 @@
 		},
 		"palestreRN0008": {
 			"category": ["Palestra"],
-			"name": "K1 Academy & Muscle Club",
+			"name": "K1 Academy and Muscle Club",
 			"address": "Via Vega, 50 - Rimini RN",
 			"lat": "44.049068",
 			"long":"12.561305",
@@ -102,7 +102,7 @@
 		},
 		"palestreRN0011": {
 			"category": ["Palestra"],
-			"name": "Schilling Squash & Gym",
+			"name": "Schilling Squash and Gym",
                         "address": "Via Antonio Draghi, 12 - Rimini RN",
 			"lat": "44.042247",
 			"long":"12.587617",
