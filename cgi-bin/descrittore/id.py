@@ -362,7 +362,7 @@ def index(req):
 				aggrs = foo.getElementsByTagName('aggregatore')
 				for aggr in aggrs:
 					if smart_str(aggr.getAttribute('id')).lower() == smart_str(AGGR).lower():
-						url = smart_str(aggr.getAttribute('url')).lower()
+						url = smart_str(aggr.getAttribute('url'))
 						hosts.append(url)
 
 	threads = []

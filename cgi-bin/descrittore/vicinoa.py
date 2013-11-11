@@ -28,9 +28,8 @@ from encoding import smart_str
 from operator import itemgetter as IG
 import json, urllib2, math, csv, tempfile, codecs, rdflib, rdfextras, threading
 
-lock = threading.Lock()
-listout = []
 RT = 6372795.477598
+lock = threading.Lock()
 
 def toplain(listout):
 	s = '\n'.join('RESULT|||V') + '\n'
@@ -262,115 +261,115 @@ def piglia(host,listout,radlatA,radlonA,req,MAX,DISTANZA,CATEGORY):
 		raise A.SERVER_RETURN, A.DONE
 
 def index(req):
+    listout = []
+    if not (('application/json' in req.headers_in['Accept']) or ('application/xml' in req.headers_in['Accept']) or ('text/csv' in req.headers_in['Accept']) or ('text/turtle' in req.headers_in['Accept']) or ('text/x-python' in req.headers_in['Accept'])):
+        req.content_type = 'text/plain; charset="UTF-8"'
+        req.headers_out.add("Access-Control-Allow-Origin","*")
+        req.status = A.HTTP_NOT_ACCEPTABLE
+        req.write('406: NOT ACCEPTABLE\r\n')
+        req.write('intersezione tra content-type vuota.\r\n')
+        raise A.SERVER_RETURN, A.DONE
 
-	if not (('application/json' in req.headers_in['Accept']) or ('application/xml' in req.headers_in['Accept']) or ('text/csv' in req.headers_in['Accept']) or ('text/turtle' in req.headers_in['Accept']) or ('text/x-python' in req.headers_in['Accept'])):
-		req.content_type = 'text/plain; charset="UTF-8"'
-		req.headers_out.add("Access-Control-Allow-Origin","*")
-		req.status = A.HTTP_NOT_ACCEPTABLE
-		req.write('406: NOT ACCEPTABLE\r\n')
-		req.write('intersezione tra content-type vuota.\r\n')
-		raise A.SERVER_RETURN, A.DONE
+    content_type = req.headers_in['Accept']
+    req.content_type = 'text/plain; charset="UTF-8"'
+    req.headers_out.add("Access-Control-Allow-Origin","*")
+    if req.method != 'GET':
+        req.status = A.HTTP_METHOD_NOT_ALLOWED
+        req.write('405: METHOD NOT ALLOWED\r\n')
+        req.write('metodo %s non permesso.\r\n' % req.method)
+        raise A.SERVER_RETURN, A.DONE
 
-	content_type = req.headers_in['Accept']
-	req.content_type = 'text/plain; charset="UTF-8"'
-	req.headers_out.add("Access-Control-Allow-Origin","*")
-	if req.method != 'GET':
-		req.status = A.HTTP_METHOD_NOT_ALLOWED
-		req.write('405: METHOD NOT ALLOWED\r\n')
-		req.write('metodo %s non permesso.\r\n' % req.method)
-		raise A.SERVER_RETURN, A.DONE
+    try:
+        parms = util.FieldStorage(req)
+        AGGRs = smart_str(parms.getfirst('aggr')).split('/')
+        latA = float(parms.getfirst('lat'))
+        lonA = float(parms.getfirst('long'))
+        MAX = smart_str(parms.getfirst('max')).lower()
+        DISTANZA = smart_str(parms.getfirst('distance')).lower()
+        CATEGORY = smart_str(parms.getfirst('category')).lower()
+    except:
+        req.status = A.HTTP_NOT_ACCEPTABLE
+        req.write('406: NOT ACCEPTABLE\r\n')
+        req.write('parametri errati.')
+        req.write('i parametri sono: lat: %s, long: %s[, max: %s, distance: %s]\r\nex: http://fattanza.no-ip.org/progettoTW/vicinoa/ltw1130-farmacie/params/44.500456/11.277643/10/5000\r\n' % (smart_str(parms.getfirst('lat')), smart_str(parms.getfirst('long')), smart_str(parms.getfirst('max')), smart_str(parms.getfirst('distance'))))
+        raise A.SERVER_RETURN, A.DONE
+    hosts = []
+    host = 'http://fattanza.no-ip.org/progettoTW/metacatalogo'
+    reqq = urllib2.Request(host)
+    reqq.add_header('Accept', 'application/xml')
+    try:
+        r = urllib2.urlopen(reqq)
+    except urllib2.HTTPError, e:
+        req.status = A.HTTP_INTERNAL_SERVER_ERROR
+        req.write('500: INTERNAL SERVER ERROR\r\n')
+        req.write('%s non raggiungibile. (errore: %d)\r\n' % (host,e.code))
+        raise A.SERVER_RETURN, A.DONE
+    except urllib2.URLError, e:
+        req.status = A.HTTP_INTERNAL_SERVER_ERROR
+        req.write('500: INTERNAL SERVER ERROR\r\n')
+        req.write('%s non raggiungibile. (errore: %d)\r\n' % (host,e.args[0]))
+        raise A.SERVER_RETURN, A.DONE
+    data = r.read()
+    dom = parseString(smart_str(data))
+    root = dom.getElementsByTagName('metaCatalogo')[0]
+    catas = root.getElementsByTagName('catalogo')
+    for AGGR in AGGRs:
+        for cata in catas:
+            if smart_str(cata.getAttribute('id')).lower() in smart_str(AGGR).lower():
+                host = smart_str(cata.getAttribute('url'))
+                reqq = urllib2.Request(host)
+                reqq.add_header('Accept', 'application/xml')
+                try:
+                    r = urllib2.urlopen(reqq)
+                except urllib2.HTTPError, e:
+                    req.status = A.HTTP_INTERNAL_SERVER_ERROR
+                    req.write('500: INTERNAL SERVER ERROR\r\n')
+                    req.write('%s non raggiungibile. (errore: %d)\r\n' % (host,e.code))
+                    raise A.SERVER_RETURN, A.DONE
+                except urllib2.URLError, e:
+                    req.status = A.HTTP_INTERNAL_SERVER_ERROR
+                    req.write('500: INTERNAL SERVER ERROR\r\n')
+                    req.write('%s non raggiungibile. (errore: %d)\r\n' % (host,e.args[0]))
+                    raise A.SERVER_RETURN, A.DONE
+                catalogo = r.read()
+                dom = parseString(smart_str(catalogo))
+                root = dom.getElementsByTagName('catalogo')[0]
+                foo = root.getElementsByTagName('aggregatori')[0]
+                aggrs = foo.getElementsByTagName('aggregatore')
+                for aggr in aggrs:
+                    if smart_str(aggr.getAttribute('id')).lower() == smart_str(AGGR).lower():
+                        url = smart_str(aggr.getAttribute('url'))
+                        hosts.append(url)
 
-	try:
-		parms = util.FieldStorage(req)
-		AGGRs = smart_str(parms.getfirst('aggr')).split('/')
-		latA = float(parms.getfirst('lat'))
-		lonA = float(parms.getfirst('long'))
-		MAX = smart_str(parms.getfirst('max')).lower()
-		DISTANZA = smart_str(parms.getfirst('distance')).lower()
-		CATEGORY = smart_str(parms.getfirst('category')).lower()
-	except:
-		req.status = A.HTTP_NOT_ACCEPTABLE
-		req.write('406: NOT ACCEPTABLE\r\n')
-		req.write('parametri errati.')
-		req.write('i parametri sono: lat: %s, long: %s[, max: %s, distance: %s]\r\nex: http://fattanza.no-ip.org/progettoTW/vicinoa/ltw1130-farmacie/params/44.500456/11.277643/10/5000\r\n' % (smart_str(parms.getfirst('lat')), smart_str(parms.getfirst('long')), smart_str(parms.getfirst('max')), smart_str(parms.getfirst('distance'))))
-		raise A.SERVER_RETURN, A.DONE
-	hosts = []
-	host = 'http://fattanza.no-ip.org/progettoTW/metacatalogo'
-	reqq = urllib2.Request(host)
-	reqq.add_header('Accept', 'application/xml')
-	try:
-		r = urllib2.urlopen(reqq)
-	except urllib2.HTTPError, e:
-		req.status = A.HTTP_INTERNAL_SERVER_ERROR
-		req.write('500: INTERNAL SERVER ERROR\r\n')
-		req.write('%s non raggiungibile. (errore: %d)\r\n' % (host,e.code))
-		raise A.SERVER_RETURN, A.DONE
-	except urllib2.URLError, e:
-		req.status = A.HTTP_INTERNAL_SERVER_ERROR
-		req.write('500: INTERNAL SERVER ERROR\r\n')
-		req.write('%s non raggiungibile. (errore: %d)\r\n' % (host,e.args[0]))
-		raise A.SERVER_RETURN, A.DONE
-	data = r.read()
-	dom = parseString(smart_str(data))
-	root = dom.getElementsByTagName('metaCatalogo')[0]
-	catas = root.getElementsByTagName('catalogo')
-	for AGGR in AGGRs:
-		for cata in catas:
-			if smart_str(cata.getAttribute('id')).lower() in smart_str(AGGR).lower():
-				host = smart_str(cata.getAttribute('url'))
-				reqq = urllib2.Request(host)
-				reqq.add_header('Accept', 'application/xml')
-				try:
-					r = urllib2.urlopen(reqq)
-				except urllib2.HTTPError, e:
-					req.status = A.HTTP_INTERNAL_SERVER_ERROR
-					req.write('500: INTERNAL SERVER ERROR\r\n')
-					req.write('%s non raggiungibile. (errore: %d)\r\n' % (host,e.code))
-					raise A.SERVER_RETURN, A.DONE
-				except urllib2.URLError, e:
-					req.status = A.HTTP_INTERNAL_SERVER_ERROR
-					req.write('500: INTERNAL SERVER ERROR\r\n')
-					req.write('%s non raggiungibile. (errore: %d)\r\n' % (host,e.args[0]))
-					raise A.SERVER_RETURN, A.DONE
-				catalogo = r.read()
-				dom = parseString(smart_str(catalogo))
-				root = dom.getElementsByTagName('catalogo')[0]
-				foo = root.getElementsByTagName('aggregatori')[0]
-				aggrs = foo.getElementsByTagName('aggregatore')
-				for aggr in aggrs:
-					if smart_str(aggr.getAttribute('id')).lower() == smart_str(AGGR).lower():
-						url = smart_str(aggr.getAttribute('url'))
-						hosts.append(url)
+    radlatA = latA * (math.pi / 180.0)
+    radlonA = lonA * (math.pi / 180.0)
+    threads = []
+    for host in hosts:
+        t = threading.Thread(target=piglia,args=(host,listout,radlatA,radlonA,req,MAX,DISTANZA,CATEGORY))
+        t.start()
+        threads.append(t)
+    for t in threads:
+        threading.Thread.join(t)
+    if MAX != 'none':
+        listout.sort(key=IG(11))
+        del(listout[int(MAX):])
 
-	radlatA = latA * (math.pi / 180.0)
-	radlonA = lonA * (math.pi / 180.0)
-	threads = []
-	for host in hosts:
-		t = threading.Thread(target=piglia,args=(host,listout,radlatA,radlonA,req,MAX,DISTANZA,CATEGORY))
-		t.start()
-		threads.append(t)
-	for t in threads:
-		threading.Thread.join(t)
-	if MAX != 'none':
-		listout.sort(key=IG(11))
-		del(listout[int(MAX):])
+    if 'application/json' in content_type:
+        req.content_type = 'application/json; charset=utf-8'
+        req.write(tojson(listout))
+    elif 'application/xml' in content_type:
+        req.content_type = 'application/xml; charset=utf-8'
+        req.write(toxml(listout))
+    elif 'text/csv' in content_type:
+        req.content_type = 'text/cvs; charset=utf-8'
+        req.write(tocsv(listout))
+    elif 'text/turtle' in content_type:
+        req.content_type = 'text/turtle; charset=utf-8'
+        req.write(tottl(listout))
+    else:
+        req.content_type = 'text/plain; charset=utf-8'
+        req.write(toplain(listout))
 
-	if 'application/json' in content_type:
-		req.content_type = 'application/json; charset=utf-8'
-		req.write(tojson(listout))
-	elif 'application/xml' in content_type:
-		req.content_type = 'application/xml; charset=utf-8'
-		req.write(toxml(listout))
-	elif 'text/csv' in content_type:
-		req.content_type = 'text/cvs; charset=utf-8'
-		req.write(tocsv(listout))
-	elif 'text/turtle' in content_type:
-		req.content_type = 'text/turtle; charset=utf-8'
-		req.write(tottl(listout))
-	else:
-		req.content_type = 'text/plain; charset=utf-8'
-		req.write(toplain(listout))
-
-	req.status = A.OK
-	raise A.SERVER_RETURN, A.DONE
+    req.status = A.OK
+    raise A.SERVER_RETURN, A.DONE
 
