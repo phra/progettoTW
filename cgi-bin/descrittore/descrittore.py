@@ -118,26 +118,26 @@ def index(req):
 #	a = RT * math.acos(math.sin(radlatA) * math.sin(radlatB) + math.cos(radlatA) * math.cos(radlatB) * math.cos(radlonA - radlonB))
 #	listout.append((id, lat, long, category, name, opening, closing, address, tel, '', '', a))
 
-	conn = psycopg2.connect("dbname='trovatutto' user='admin' password='admin'")
+    conn = psycopg2.connect("dbname='trovatutto' user='admin' password='admin'")
     cur = conn.cursor()
-    
+
     if MAX != 'none':
-		if categoria == 'all':
-			if DISTANZA != 'none':
-				cur.execute("SELECT * FROM locations a WHERE (6372 * acos(cos(radians(a.latitude)) * cos(radians(%s)) * cos(radians(%s) - radians(a.longitude)) + sin(radians(a.latitude)) * sin(radians(%s)))) < %s LIMIT %s;",(latA,lonA,latA,DISTANZA,MAX))
-			else:
-				cur.execute("SELECT * FROM locations a ORDER BY (6372 * acos(cos(radians(a.latitude)) * cos(radians(%s)) * cos(radians(%s) - radians(a.longitude)) + sin(radians(a.latitude)) * sin(radians(%s)))) LIMIT %s;",(latA,lonA,latA,MAX))
-		else:
-			if DISTANZA != 'none':
-				cur.execute("SELECT * FROM locations a WHERE a.category = %s AND (6372 * acos(cos(radians(a.latitude)) * cos(radians(%s) ) * cos(radians(%s) - radians(a.longitude)) + sin(radians(a.latitude)) * sin(radians(%s)))) < %s LIMIT %s;",(categoria,latA,lonA,latA,DISTANZA,MAX))
-			else:
-				cur.execute("SELECT * FROM locations a WHERE a.category = %s ORDER BY (6372 * acos(cos(radians(a.latitude)) * cos(radians(%s) ) * cos(radians(%s) - radians(a.longitude)) + sin(radians(a.latitude)) * sin(radians(%s)))) LIMIT %s;",(categoria,latA,lonA,latA,MAX))
-	else:
-		if categoria == 'all':
-			cur.execute("SELECT * FROM locations a ORDER BY (6372 * acos(cos(radians(a.latitude)) * cos(radians(%s)) * cos(radians(%s) - radians(a.longitude)) + sin(radians(a.latitude)) * sin(radians(%s)))) LIMIT 10;",(latA,lonA,latA))
-		else:
-			cur.execute("SELECT * FROM locations a WHERE a.category = %s ORDER BY (6372 * acos(cos(radians(a.latitude)) * cos(radians(%s)) * cos(radians(%s) - radians(a.longitude)) + sin(radians(a.latitude)) * sin(radians(%s)))) LIMIT 10;",(categoria,latA,lonA,latA))
-	
+        if categoria == 'all':
+            if DISTANZA != 'none':
+                cur.execute("SELECT * FROM locations a WHERE (6372 * acos(cos(radians(a.latitude)) * cos(radians(%s)) * cos(radians(%s) - radians(a.longitude)) + sin(radians(a.latitude)) * sin(radians(%s)))) < %s LIMIT %s;",(latA,lonA,latA,DISTANZA,MAX))
+            else:
+                cur.execute("SELECT * FROM locations a ORDER BY (6372 * acos(cos(radians(a.latitude)) * cos(radians(%s)) * cos(radians(%s) - radians(a.longitude)) + sin(radians(a.latitude)) * sin(radians(%s)))) LIMIT %s;",(latA,lonA,latA,MAX))
+        else:
+            if DISTANZA != 'none':
+                cur.execute("SELECT * FROM locations a WHERE a.category = %s AND (6372 * acos(cos(radians(a.latitude)) * cos(radians(%s) ) * cos(radians(%s) - radians(a.longitude)) + sin(radians(a.latitude)) * sin(radians(%s)))) < %s LIMIT %s;",(categoria,latA,lonA,latA,DISTANZA,MAX))
+            else:
+                cur.execute("SELECT * FROM locations a WHERE a.category = %s ORDER BY (6372 * acos(cos(radians(a.latitude)) * cos(radians(%s) ) * cos(radians(%s) - radians(a.longitude)) + sin(radians(a.latitude)) * sin(radians(%s)))) LIMIT %s;",(categoria,latA,lonA,latA,MAX))
+    else:
+        if categoria == 'all':
+            cur.execute("SELECT * FROM locations a ORDER BY (6372 * acos(cos(radians(a.latitude)) * cos(radians(%s)) * cos(radians(%s) - radians(a.longitude)) + sin(radians(a.latitude)) * sin(radians(%s)))) LIMIT 10;",(latA,lonA,latA))
+        else:
+            cur.execute("SELECT * FROM locations a WHERE a.category = %s ORDER BY (6372 * acos(cos(radians(a.latitude)) * cos(radians(%s)) * cos(radians(%s) - radians(a.longitude)) + sin(radians(a.latitude)) * sin(radians(%s)))) LIMIT 10;",(categoria,latA,lonA,latA))
+
     results = cur.fetchall()
     req.write(tojson(results))
     conn.commit()
@@ -145,8 +145,8 @@ def index(req):
     conn.close()
     raise A.SERVER_RETURN, A.DONE
 
-	if 'application/json' in content_type:
-		req.content_type = 'application/json; charset=utf-8'
+    if 'application/json' in content_type:
+        req.content_type = 'application/json; charset=utf-8'
         req.write(tojson(listout))
     elif 'application/xml' in content_type:
         req.content_type = 'application/xml; charset=utf-8'
