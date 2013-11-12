@@ -118,13 +118,37 @@ def index(req):
 #	a = RT * math.acos(math.sin(radlatA) * math.sin(radlatB) + math.cos(radlatA) * math.cos(radlatB) * math.cos(radlonA - radlonB))
 #	listout.append((id, lat, long, category, name, opening, closing, address, tel, '', '', a))
 
-#	for aggr in AGGRs:
+SELECT *, 
+FROM locations a
+WHERE (
+	6372 * acos(cos(radians(a.latitude)) * cos(radians(11) ) * 
+	cos(radians(40) - radians(a.longitude)) + sin(radians(a.latitude)) * sin(radians(11)))
+) < 1000
+ORDER BY distance
+LIMIT 10;
 
 
+
+	flag = 0
+	query = "SELECT * FROM locations a WHERE ("
+
+	for aggr in AGGRs:
+		if flag == 0:
+			flag = 1
+			query += "x.category = %s"
+		query += " OR x.category = %s"
+
+	query += ") "
+	if DISTANZA != 'none':
+		query += "AND (	6372 * acos(cos(radians(a.latitude)) * cos(radians(%s) ) * 	cos(radians(%s) - radians(a.longitude)) + sin(radians(a.latitude)) * sin(radians(%s)))) < 1000 " 
+	if MAX != 'none':
+		query += "LIMIT %s"
+	query += ";"
 
     conn = psycopg2.connect("dbname='trovatutto' user='admin' password='admin'")
     cur = conn.cursor()
-    cur.execute("SELECT * from locations;")
+    AGGRs += (latA,lonA,latA,DISTANZA,MAX)
+    cur.execute(query,AGGRs)
     results = cur.fetchall()
     req.write(tojson(results))
     conn.commit()

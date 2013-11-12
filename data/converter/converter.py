@@ -55,6 +55,6 @@ for host in hosts:
         opening = smart_str(value['opening'])
         closing = smart_str(value['closing'])
         tel = smart_str(value['tel'])
-        output += "INSERT INTO locations(name,category,address,latitude,longitude,opening,closing,tel) VALUES ('%s','%s','%s','%s','%s','%s','%s','%s');\n" % (name, category,address,lat,long,opening,closing,tel)
+        output += "INSERT INTO locations(name,category,address,latitude,longitude,opening,closing,tel) VALUES ('%s','%s','%s',%s,%s,'%s','%s','%s');\n" % (name, category,address,lat,long,opening,closing,tel)
 
 print output
