@@ -118,17 +118,6 @@ def index(req):
 #	a = RT * math.acos(math.sin(radlatA) * math.sin(radlatB) + math.cos(radlatA) * math.cos(radlatB) * math.cos(radlonA - radlonB))
 #	listout.append((id, lat, long, category, name, opening, closing, address, tel, '', '', a))
 
-SELECT *, 
-FROM locations a
-WHERE (
-	6372 * acos(cos(radians(a.latitude)) * cos(radians(11) ) * 
-	cos(radians(40) - radians(a.longitude)) + sin(radians(a.latitude)) * sin(radians(11)))
-) < 1000
-ORDER BY distance
-LIMIT 10;
-
-
-
 	flag = 0
 	query = "SELECT * FROM locations a WHERE ("
 
