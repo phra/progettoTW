@@ -96,32 +96,6 @@ def index(req):
         req.write('metodo %s non permesso.\r\n' % req.method)
         raise A.SERVER_RETURN, A.DONE
 
-    try:
-        parms = util.FieldStorage(req)
-        AGGRs = smart_str(parms.getfirst('aggr')).split('/')
-        latA = float(parms.getfirst('lat'))
-        lonA = float(parms.getfirst('long'))
-        MAX = smart_str(parms.getfirst('max')).lower()
-        DISTANZA = smart_str(parms.getfirst('distance')).lower()
-    except:
-        req.status = A.HTTP_NOT_ACCEPTABLE
-        req.write('406: NOT ACCEPTABLE\r\n')
-        req.write('parametri errati.')
-        req.write('i parametri sono: lat: %s, long: %s[, max: %s, distance: %s]\r\nex: http://fattanza.no-ip.org/progettoTW/vicinoa/ltw1130-farmacie/params/44.500456/11.277643/10/5000\r\n' % (smart_str(parms.getfirst('lat')), smart_str(parms.getfirst('long')), smart_str(parms.getfirst('max')), smart_str(parms.getfirst('distance'))))
-        raise A.SERVER_RETURN, A.DONE
-
-
-#	radlatA = latA * (math.pi / 180.0)
-#	radlonA = lonA * (math.pi / 180.0)
-#	radlatB = latB * (math.pi / 180.0)
-#	radlonB = lonB * (math.pi / 180.0)
-#	a = RT * math.acos(math.sin(radlatA) * math.sin(radlatB) + math.cos(radlatA) * math.cos(radlatB) * math.cos(radlonA - radlonB))
-#	listout.append((id, lat, long, category, name, opening, closing, address, tel, '', '', a))
-
-#	for aggr in AGGRs:
-
-
-
     conn = psycopg2.connect("dbname='trovatutto' user='admin' password='admin'")
     cur = conn.cursor()
     cur.execute("SELECT * from locations;")
