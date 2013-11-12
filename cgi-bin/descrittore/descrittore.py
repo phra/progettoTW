@@ -124,14 +124,14 @@ def index(req):
 	for aggr in AGGRs:
 		if flag == 0:
 			flag = 1
-			query += "a.category = %s"
-		query += " OR a.category = %s"
+			query += "a.category = %%s"
+		query += " OR a.category = %%s"
 
 	query += ") "
 	if DISTANZA != 'none':
-		query += "AND (	6372 * acos(cos(radians(a.latitude)) * cos(radians(%s) ) * 	cos(radians(%s) - radians(a.longitude)) + sin(radians(a.latitude)) * sin(radians(%s)))) < 1000 " 
+		query += "AND (	6372 * acos(cos(radians(a.latitude)) * cos(radians(%%s) ) * cos(radians(%%s) - radians(a.longitude)) + sin(radians(a.latitude)) * sin(radians(%%s)))) < 1000 " 
 	if MAX != 'none':
-		query += "LIMIT %s"
+		query += "LIMIT %%s"
 	query += ";"
 
     conn = psycopg2.connect("dbname='trovatutto' user='admin' password='admin'")
