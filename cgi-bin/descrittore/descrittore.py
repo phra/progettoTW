@@ -98,7 +98,7 @@ def index(req):
 
     try:
         parms = util.FieldStorage(req)
-        AGGRs = smart_str(parms.getfirst('aggr')).split('/')
+        categoria = smart_str(parms.getfirst('aggr')).lower()
         latA = float(parms.getfirst('lat'))
         lonA = float(parms.getfirst('long'))
         MAX = smart_str(parms.getfirst('max')).lower()
@@ -118,26 +118,23 @@ def index(req):
 #	a = RT * math.acos(math.sin(radlatA) * math.sin(radlatB) + math.cos(radlatA) * math.cos(radlatB) * math.cos(radlonA - radlonB))
 #	listout.append((id, lat, long, category, name, opening, closing, address, tel, '', '', a))
 
-	flag = 0
-	query = "SELECT * FROM locations a WHERE ("
-
-	for aggr in AGGRs:
-		if flag == 0:
-			flag = 1
-			query += "a.category = %%s"
-		query += " OR a.category = %%s"
-
-	query += ") "
-	if DISTANZA != 'none':
-		query += "AND (	6372 * acos(cos(radians(a.latitude)) * cos(radians(%%s) ) * cos(radians(%%s) - radians(a.longitude)) + sin(radians(a.latitude)) * sin(radians(%%s)))) < 1000 " 
-	if MAX != 'none':
-		query += "LIMIT %%s"
-	query += ";"
-
-    conn = psycopg2.connect("dbname='trovatutto' user='admin' password='admin'")
+	conn = psycopg2.connect("dbname='trovatutto' user='admin' password='admin'")
     cur = conn.cursor()
-    AGGRs += (latA,lonA,latA,DISTANZA,MAX)
-    cur.execute(query,AGGRs)
+    
+    if MAX != 'none':
+		if categoria == 'all':
+			if DISTANZA != 'none':
+				cur.execute("SELECT * FROM locations a WHERE (	6372 * acos(cos(radians(a.latitude)) * cos(radians(%s) ) * cos(radians(%s) - radians(a.longitude)) + sin(radians(a.latitude)) * sin(radians(%s)))) < %s LIMIT %s;",(latA,lonA,latA,DISTANZA,MAX))
+			else:
+				cur.execute("SELECT * FROM locations a ORDER BY (6372 * acos(cos(radians(a.latitude)) * cos(radians(%s) ) * cos(radians(%s) - radians(a.longitude)) + sin(radians(a.latitude)) * sin(radians(%s)))) LIMIT %s;",(latA,lonA,latA,MAX))
+		else:
+			if DISTANZA != 'none':
+				cur.execute("SELECT * FROM locations a WHERE a.category = %s AND (	6372 * acos(cos(radians(a.latitude)) * cos(radians(%s) ) * cos(radians(%s) - radians(a.longitude)) + sin(radians(a.latitude)) * sin(radians(%s)))) < %s LIMIT %s;",(categoria,latA,lonA,latA,DISTANZA,MAX))
+			else:
+				cur.execute("SELECT * FROM locations a WHERE a.category = %s ORDER BY (	6372 * acos(cos(radians(a.latitude)) * cos(radians(%s) ) * cos(radians(%s) - radians(a.longitude)) + sin(radians(a.latitude)) * sin(radians(%s)))) LIMIT %s;",(categoria,latA,lonA,latA,MAX))
+	else:
+		cur.execute("SELECT * FROM locations a WHERE a.category = %s;",(categoria,))
+	
     results = cur.fetchall()
     req.write(tojson(results))
     conn.commit()
