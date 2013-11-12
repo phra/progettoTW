@@ -124,8 +124,8 @@ def index(req):
 	for aggr in AGGRs:
 		if flag == 0:
 			flag = 1
-			query += "x.category = %s"
-		query += " OR x.category = %s"
+			query += "a.category = %s"
+		query += " OR a.category = %s"
 
 	query += ") "
 	if DISTANZA != 'none':
