@@ -143,17 +143,16 @@ def index(req):
     conn.commit()
     cur.close()
     conn.close()
-    raise A.SERVER_RETURN, A.DONE
 
     if 'application/json' in content_type:
         req.content_type = 'application/json; charset=utf-8'
-        req.write(tojson(listout))
+        req.write(tojson(results))
     elif 'application/xml' in content_type:
         req.content_type = 'application/xml; charset=utf-8'
         req.write(toxml(results))
     elif 'text/csv' in content_type:
         req.content_type = 'text/cvs; charset=utf-8'
-        req.write(tocsv(listout))
+        req.write(tocsv(results))
     else:
         req.content_type = 'text/plain; charset=utf-8'
         req.write(toplain(listout))

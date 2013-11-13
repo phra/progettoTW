@@ -1,0 +1,1 @@
+INSERT INTO locations(name,category,subcategory,latitude,longitude,address,opening,closing,tel,note) SELECT w.name, w.category, w.subcategory,w.latitude,w.longitude,w.address,w.opening,w.closing,w.tel,w.note FROM waiting w;
