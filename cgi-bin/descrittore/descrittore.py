@@ -155,7 +155,7 @@ def index(req):
         req.write(tocsv(results))
     else:
         req.content_type = 'text/plain; charset=utf-8'
-        req.write(toplain(listout))
+        req.write(toplain(results))
 
     req.status = A.OK
     raise A.SERVER_RETURN, A.DONE
