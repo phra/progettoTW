@@ -61,7 +61,7 @@ RewriteRule ^descrittore/(.*)/params/(.*)$ cgi-bin/descrittore/descrittore.py?ag
 RewriteRule ^descrittore/(.*)$ cgi-bin/descrittore/descrittore.py?aggr=$1
 RewriteRule ^descrittore$ cgi-bin/descrittore/descrittore.py
 
-RewriteRule ^selectall$ cgi-bin/descrittore/selectall.py
+RewriteRule ^selectall$ cgi-bin/descrittore/select.py
 
 RewriteRule ^entroilraggio/(.*)/params/(.*)/(.*)/(.*)$ cgi-bin/descrittore/vicinoa.py?aggr=$1&lat=$2&long=$3&distance=$4
 RewriteRule ^distanza/(.*)/(.*)/(.*)/(.*)$ cgi-bin/descrittore/distanza.py?lat1=$1&long1=$2&lat2=$3&long2=$4

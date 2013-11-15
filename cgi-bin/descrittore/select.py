@@ -97,13 +97,13 @@ def index(req):
         raise A.SERVER_RETURN, A.DONE
     parms = util.FieldStorage(req)
     name = smart_str(parms.getfirst('name')).lower()
-    id = int(float(parms.getfirst('id').lower()))
+    id = smart_str(parms.getfirst('id')).lower()
     category = smart_str(parms.getfirst('category')).lower()
     address = smart_str(parms.getfirst('address')).lower()
     conn = psycopg2.connect("dbname='trovatutto' user='admin' password='admin'")
     cur = conn.cursor()
     if id != 'none':
-        cur.execute("SELECT * FROM locations a WHERE a.id = '%s';", (id,))
+        cur.execute("SELECT * FROM locations a WHERE a.id = %s;", (id,))
     elif name != 'none':
         if category != 'none':
             if address != 'none':
