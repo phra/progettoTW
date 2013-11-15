@@ -107,25 +107,25 @@ def index(req):
     elif name != 'none':
         if category != 'none':
             if address != 'none':
-                cur.execute("SELECT * FROM locations WHERE POSITION(%s IN LOWER(name)) > 0 AND category = %s AND POSITION(%s IN LOWER(address)) > 0;",(name,category,address))
+                cur.execute("SELECT * FROM locations WHERE POSITION(%s IN LOWER(name)) > 0 AND category = %s AND POSITION(%s IN LOWER(address)) > 0 UNION ALL SELECT * FROM waiting WHERE POSITION(%s IN LOWER(name)) > 0 AND category = %s AND POSITION(%s IN LOWER(address)) > 0 ;",(name,category,address,name,category,address))
             else:
-                cur.execute("SELECT * FROM locations WHERE POSITION(%s IN LOWER(name)) > 0 AND category = %s;",(name,category))
+                cur.execute("SELECT * FROM locations WHERE POSITION(%s IN LOWER(name)) > 0 AND category = %s UNION ALL SELECT * FROM waiting WHERE POSITION(%s IN LOWER(name)) > 0 AND category = %s;",(name,category,name,category))
         else:
             if address != 'none':
-                cur.execute("SELECT * FROM locations WHERE POSITION(%s IN LOWER(name)) > 0 AND POSITION(%s IN LOWER(address)) > 0;",(name,address))
+                cur.execute("SELECT * FROM locations WHERE POSITION(%s IN LOWER(name)) > 0 AND POSITION(%s IN LOWER(address)) > 0 UNION ALL SELECT * FROM waiting WHERE POSITION(%s IN LOWER(name)) > 0 AND POSITION(%s IN LOWER(address)) > 0;",(name,address,name,address))
             else:
-                cur.execute("SELECT * FROM locations WHERE POSITION(%s IN LOWER(name)) > 0;",(name,))
+                cur.execute("SELECT * FROM locations WHERE POSITION(%s IN LOWER(name)) > 0 UNION ALL SELECT * FROM waiting WHERE POSITION(%s IN LOWER(name)) > 0;",(name,name))
     else:
         if category != 'none':
             if address != 'none':
-                cur.execute("SELECT * FROM locations WHERE category = %s AND POSITION(%s IN LOWER(address)) > 0;",(category,address))
+                cur.execute("SELECT * FROM locations WHERE category = %s AND POSITION(%s IN LOWER(address)) > 0 UNION ALL SELECT * FROM waiting WHERE category = %s AND POSITION(%s IN LOWER(address)) > 0;",(category,address,category,address))
             else:
-                cur.execute("SELECT * FROM locations WHERE category = %s;",(category,))
+                cur.execute("SELECT * FROM locations WHERE category = %s UNION ALL SELECT * FROM waiting WHERE category = %s;",(category,category))
         else:
             if address != 'none':
-                cur.execute("SELECT * FROM locations WHERE POSITION(%s in LOWER(address)) > 0;",(address,))
+                cur.execute("SELECT * FROM locations WHERE POSITION(%s in LOWER(address)) > 0 UNION ALL SELECT * FROM waiting WHERE POSITION(%s in LOWER(address)) > 0;",(address,address))
             else:
-                cur.execute("SELECT * FROM locations;")
+                cur.execute("SELECT * FROM locations UNION ALL SELECT * FROM waiting;")
     results = cur.fetchall()
     conn.commit()
     cur.close()
