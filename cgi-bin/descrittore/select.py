@@ -3,7 +3,7 @@
 #
 #  vicinoa.py
 #
-#  Copyright 2011 soncio <soncio@SONCIO-EEEPC>
+#  Copyright 2013 phra <phra@phb0x>
 #
 #  This program is free software; you can redistribute it and/or modify
 #  it under the terms of the GNU General Public License as published by
@@ -95,29 +95,54 @@ def index(req):
         req.write('405: METHOD NOT ALLOWED\r\n')
         req.write('metodo %s non permesso.\r\n' % req.method)
         raise A.SERVER_RETURN, A.DONE
-
+    parms = util.FieldStorage(req)
+    name = smart_str(parms.getfirst('name')).lower()
+    id = int(float(parms.getfirst('id').lower()))
+    category = smart_str(parms.getfirst('category')).lower()
+    address = smart_str(parms.getfirst('address')).lower()
     conn = psycopg2.connect("dbname='trovatutto' user='admin' password='admin'")
     cur = conn.cursor()
-    cur.execute("SELECT * from locations;")
+    if id != 'none':
+        cur.execute("SELECT * FROM locations a WHERE a.id = '%s';", (id,))
+    elif name != 'none':
+        if category != 'none':
+            if address != 'none':
+                cur.execute("SELECT * FROM locations WHERE POSITION(%s IN LOWER(name)) > 0 AND category = %s AND POSITION(%s IN LOWER(address)) > 0;",(name,category,address))
+            else:
+                cur.execute("SELECT * FROM locations WHERE POSITION(%s IN LOWER(name)) > 0 AND category = %s;",(name,category))
+        else:
+            if address != 'none':
+                cur.execute("SELECT * FROM locations WHERE POSITION(%s IN LOWER(name)) > 0 AND POSITION(%s IN LOWER(address)) > 0;",(name,address))
+            else:
+                cur.execute("SELECT * FROM locations WHERE POSITION(%s IN LOWER(name)) > 0;",(name,))
+    else:
+        if category != 'none':
+            if address != 'none':
+                cur.execute("SELECT * FROM locations WHERE category = %s AND POSITION(%s IN LOWER(address)) > 0;",(category,address))
+            else:
+                cur.execute("SELECT * FROM locations WHERE category = %s;",(category,))
+        else:
+            if address != 'none':
+                cur.execute("SELECT * FROM locations WHERE POSITION(%s in LOWER(address)) > 0;",(address,))
+            else:
+                cur.execute("SELECT * FROM locations;")
     results = cur.fetchall()
-    req.write(tojson(results))
     conn.commit()
     cur.close()
     conn.close()
-    raise A.SERVER_RETURN, A.DONE
 
     if 'application/json' in content_type:
         req.content_type = 'application/json; charset=utf-8'
-        req.write(tojson(listout))
+        req.write(tojson(results))
     elif 'application/xml' in content_type:
         req.content_type = 'application/xml; charset=utf-8'
         req.write(toxml(results))
     elif 'text/csv' in content_type:
         req.content_type = 'text/cvs; charset=utf-8'
-        req.write(tocsv(listout))
+        req.write(tocsv(results))
     else:
         req.content_type = 'text/plain; charset=utf-8'
-        req.write(toplain(listout))
+        req.write(toplain(results))
 
     req.status = A.OK
     raise A.SERVER_RETURN, A.DONE
