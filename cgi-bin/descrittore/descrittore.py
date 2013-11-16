@@ -134,7 +134,7 @@ def index(req):
                 cur.execute("(SELECT * FROM locations WHERE category = %s ORDER BY (6372 * acos(cos(radians(latitude)) * cos(radians(%s) ) * cos(radians(%s) - radians(longitude)) + sin(radians(latitude)) * sin(radians(%s)))) LIMIT %s) UNION ALL (SELECT * FROM waiting WHERE category = %s ORDER BY (6372 * acos(cos(radians(latitude)) * cos(radians(%s) ) * cos(radians(%s) - radians(longitude)) + sin(radians(latitude)) * sin(radians(%s)))) LIMIT %s);",(categoria,latA,lonA,latA,MAX,categoria,latA,lonA,latA,MAX))
     else:
         if categoria == 'all' or categoria == 'none':
-            cur.execute("((SELECT * FROM locations) UNION ALL (SELECT * FROM waiting)) ORDER BY (6372 * acos(cos(radians(latitude)) * cos(radians(%s)) * cos(radians(%s) - radians(longitude)) + sin(radians(latitude)) * sin(radians(%s)))) LIMIT 10;",(latA,lonA,latA,latA,lonA,latA))
+            cur.execute("((SELECT * FROM (SELECT * FROM locations UNION ALL SELECT * FROM waiting) AS a)) ORDER BY (6372 * acos(cos(radians(latitude)) * cos(radians(10)) * cos(radians(40) - radians(longitude)) + sin(radians(latitude)) * sin(radians(10)))) LIMIT 10;",(latA,lonA,latA))
         else:
             cur.execute("(SELECT * FROM locations WHERE category = %s ORDER BY (6372 * acos(cos(radians(latitude)) * cos(radians(%s)) * cos(radians(%s) - radians(longitude)) + sin(radians(latitude)) * sin(radians(%s)))) LIMIT 10) UNION ALL (SELECT * FROM waiting WHERE category = %s ORDER BY (6372 * acos(cos(radians(latitude)) * cos(radians(%s)) * cos(radians(%s) - radians(longitude)) + sin(radians(latitude)) * sin(radians(%s)))) LIMIT 10);",(categoria,latA,lonA,latA,categoria,latA,lonA,latA))
 
