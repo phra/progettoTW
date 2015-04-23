@@ -41,7 +41,7 @@ def index(req):
     try:
         parms = util.FieldStorage(req)
         msg = smart_str(parms.getfirst('msg'))
-        name = smart_str(parms.getfirst('category'))
+        category = smart_str(parms.getfirst('category'))
         email = smart_str(parms.getfirst('email'))
     except:
         req.status = A.HTTP_NOT_ACCEPTABLE
